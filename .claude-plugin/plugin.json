@@ -1,0 +1,261 @@
+{
+  "name": "developer-roadmap-plugin",
+  "version": "1.0.0",
+  "displayName": "Developer Roadmap Plugin",
+  "description": "Comprehensive learning system for 7 specialized developer roles: Frontend, Backend, DevOps, Data Science, Full Stack, Cloud Engineering, and AI Engineering. Based on roadmap.sh with 1000+ hours of structured content.",
+  "author": "Developer Roadmap Community",
+  "license": "MIT",
+  "repository": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin",
+
+  "agents": [
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "description": "Master modern frontend development with React, Vue, Angular, and essential web technologies"
+    },
+    {
+      "id": "backend-developer",
+      "name": "Backend Developer",
+      "description": "Build robust backend systems with databases, APIs, and cloud technologies"
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "description": "Master infrastructure automation, CI/CD, and cloud deployment strategies"
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "description": "Learn machine learning, statistics, and data analysis for insights and predictions"
+    },
+    {
+      "id": "fullstack-developer",
+      "name": "Full Stack Developer",
+      "description": "Become proficient in both frontend and backend development for complete web applications"
+    },
+    {
+      "id": "cloud-engineer",
+      "name": "Cloud & Infrastructure Engineer",
+      "description": "Design and manage cloud infrastructure with AWS, Azure, and GCP"
+    },
+    {
+      "id": "ai-engineer",
+      "name": "AI Engineer",
+      "description": "Master artificial intelligence, LLMs, generative AI, and AI agents"
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "web-fundamentals",
+      "name": "Web Fundamentals",
+      "description": "Internet, HTTP, DNS, browsers, and core web concepts",
+      "agents": ["frontend-developer", "backend-developer", "fullstack-developer"]
+    },
+    {
+      "id": "frontend-core",
+      "name": "Frontend Core",
+      "description": "HTML, CSS, JavaScript, and responsive design",
+      "agents": ["frontend-developer", "fullstack-developer"]
+    },
+    {
+      "id": "frontend-frameworks",
+      "name": "Frontend Frameworks",
+      "description": "React, Vue.js, Angular, and modern framework patterns",
+      "agents": ["frontend-developer", "fullstack-developer"]
+    },
+    {
+      "id": "backend-languages",
+      "name": "Backend Languages & Frameworks",
+      "description": "Python, Node.js, Java, Go, and web frameworks",
+      "agents": ["backend-developer", "fullstack-developer"]
+    },
+    {
+      "id": "databases",
+      "name": "Database Management",
+      "description": "SQL, NoSQL, database design, and optimization",
+      "agents": ["backend-developer", "fullstack-developer", "data-scientist", "devops-engineer"]
+    },
+    {
+      "id": "api-development",
+      "name": "API Development",
+      "description": "REST, GraphQL, authentication, and API design patterns",
+      "agents": ["backend-developer", "fullstack-developer", "ai-engineer"]
+    },
+    {
+      "id": "web-security",
+      "name": "Web Security & Best Practices",
+      "description": "Authentication, authorization, HTTPS, OWASP, and secure coding",
+      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "linux-devops",
+      "name": "Linux & System Administration",
+      "description": "Linux fundamentals, shell scripting, and system management",
+      "agents": ["devops-engineer", "backend-developer", "cloud-engineer"]
+    },
+    {
+      "id": "containerization",
+      "name": "Containerization & Orchestration",
+      "description": "Docker, Kubernetes, container security, and orchestration patterns",
+      "agents": ["devops-engineer", "fullstack-developer", "cloud-engineer", "backend-developer"]
+    },
+    {
+      "id": "iac-automation",
+      "name": "Infrastructure as Code",
+      "description": "Terraform, Ansible, CloudFormation, and IaC best practices",
+      "agents": ["devops-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "cicd-pipelines",
+      "name": "CI/CD & Automation",
+      "description": "Jenkins, GitHub Actions, GitLab CI, and pipeline design",
+      "agents": ["devops-engineer", "backend-developer", "fullstack-developer", "cloud-engineer"]
+    },
+    {
+      "id": "cloud-platforms",
+      "name": "Cloud Platforms",
+      "description": "AWS, Azure, GCP services and cloud architecture",
+      "agents": ["cloud-engineer", "devops-engineer", "backend-developer", "fullstack-developer"]
+    },
+    {
+      "id": "monitoring-observability",
+      "name": "Monitoring & Observability",
+      "description": "Prometheus, Grafana, ELK Stack, logging, and alerting",
+      "agents": ["devops-engineer", "cloud-engineer", "backend-developer"]
+    },
+    {
+      "id": "git-version-control",
+      "name": "Version Control & Git",
+      "description": "Git workflows, branching, collaboration, and best practices",
+      "agents": ["frontend-developer", "backend-developer", "devops-engineer", "fullstack-developer", "data-scientist", "ai-engineer"]
+    },
+    {
+      "id": "testing",
+      "name": "Testing & Quality Assurance",
+      "description": "Unit, integration, E2E testing, and test-driven development",
+      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer"]
+    },
+    {
+      "id": "data-engineering",
+      "name": "Data Engineering",
+      "description": "Data pipelines, ETL, databases, and data warehousing",
+      "agents": ["data-scientist", "backend-developer", "devops-engineer"]
+    },
+    {
+      "id": "python-ml",
+      "name": "Python & Machine Learning",
+      "description": "Python programming, NumPy, Pandas, Scikit-learn, and ML fundamentals",
+      "agents": ["data-scientist", "ai-engineer", "backend-developer"]
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning & Neural Networks",
+      "description": "TensorFlow, PyTorch, CNNs, RNNs, transformers",
+      "agents": ["data-scientist", "ai-engineer"]
+    },
+    {
+      "id": "llms-generative-ai",
+      "name": "LLMs & Generative AI",
+      "description": "Large Language Models, prompt engineering, RAG systems, AI agents",
+      "agents": ["ai-engineer", "backend-developer"]
+    },
+    {
+      "id": "ai-agents",
+      "name": "AI Agents & Orchestration",
+      "description": "Agent architectures, multi-agent systems, tools, and memory management",
+      "agents": ["ai-engineer", "backend-developer"]
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & Model Deployment",
+      "description": "Model versioning, experiment tracking, deployment, and monitoring",
+      "agents": ["data-scientist", "ai-engineer", "devops-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "performance-optimization",
+      "name": "Performance Optimization",
+      "description": "Web performance, database optimization, caching, and scalability",
+      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer"]
+    },
+    {
+      "id": "devops-sre",
+      "name": "DevOps & SRE Practices",
+      "description": "Deployment strategies, reliability engineering, incident management",
+      "agents": ["devops-engineer", "cloud-engineer", "backend-developer"]
+    },
+    {
+      "id": "statistics-math",
+      "name": "Statistics & Mathematics",
+      "description": "Linear algebra, calculus, probability, and statistical analysis",
+      "agents": ["data-scientist", "ai-engineer"]
+    },
+    {
+      "id": "career-growth",
+      "name": "Career & Professional Development",
+      "description": "Portfolio building, interviews, job search, and continuous learning",
+      "agents": ["frontend-developer", "backend-developer", "devops-engineer", "data-scientist", "fullstack-developer", "cloud-engineer", "ai-engineer"]
+    }
+  ],
+
+  "commands": [
+    {
+      "id": "start-learning",
+      "name": "/start-learning",
+      "description": "Begin your learning journey by choosing a role or skill"
+    },
+    {
+      "id": "choose-role",
+      "name": "/choose-role",
+      "description": "Select a specific developer role to focus on"
+    },
+    {
+      "id": "roadmap-status",
+      "name": "/roadmap-status",
+      "description": "Check your progress on your selected learning path"
+    },
+    {
+      "id": "skill-deep-dive",
+      "name": "/skill-deep-dive",
+      "description": "Get detailed guidance on a specific skill or topic"
+    },
+    {
+      "id": "project-ideas",
+      "name": "/project-ideas",
+      "description": "Get hands-on project ideas for your current skill level"
+    },
+    {
+      "id": "interview-prep",
+      "name": "/interview-prep",
+      "description": "Prepare for technical interviews for your target role"
+    },
+    {
+      "id": "assessment",
+      "name": "/assessment",
+      "description": "Evaluate your current knowledge and find gaps"
+    }
+  ],
+
+  "hooks": [
+    "user-prompt-submit-hook"
+  ],
+
+  "keywords": [
+    "developer roadmap",
+    "learning path",
+    "skill development",
+    "frontend",
+    "backend",
+    "devops",
+    "data science",
+    "full stack",
+    "cloud engineering",
+    "ai engineering",
+    "career development",
+    "technical skills",
+    "project ideas",
+    "interview preparation"
+  ],
+
+  "tags": ["learning", "career", "development", "skills", "education"]
+}
