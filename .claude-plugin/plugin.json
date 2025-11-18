@@ -1,200 +1,171 @@
 {
-  "name": "developer-roadmap-plugin",
+  "name": "custom-plugin-data-engineer",
   "version": "1.0.0",
-  "displayName": "Developer Roadmap Plugin",
-  "description": "Comprehensive learning system for 7 specialized developer roles: Frontend, Backend, DevOps, Data Science, Full Stack, Cloud Engineering, and AI Engineering. Based on roadmap.sh with 1000+ hours of structured content.",
-  "author": "Developer Roadmap Community",
+  "displayName": "Custom Plugin: Data Engineer",
+  "description": "Specialized learning system for data engineers. Master data pipelines, ETL, databases, analytics, machine learning, and cloud data platforms. Based on roadmap.sh with 800+ hours of data-focused content.",
+  "author": "Data Engineer Community",
   "license": "MIT",
-  "repository": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-data-engineer",
 
   "agents": [
     {
-      "id": "frontend-developer",
-      "name": "Frontend Developer",
-      "description": "Master modern frontend development with React, Vue, Angular, and essential web technologies"
-    },
-    {
-      "id": "backend-developer",
-      "name": "Backend Developer",
-      "description": "Build robust backend systems with databases, APIs, and cloud technologies"
-    },
-    {
-      "id": "devops-engineer",
-      "name": "DevOps Engineer",
-      "description": "Master infrastructure automation, CI/CD, and cloud deployment strategies"
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "description": "Master data pipelines, ETL systems, database design, and big data technologies. Build scalable data infrastructure."
     },
     {
       "id": "data-scientist",
       "name": "Data Scientist",
-      "description": "Learn machine learning, statistics, and data analysis for insights and predictions"
+      "description": "Learn machine learning, statistics, and data analysis. Turn data into actionable insights and predictions."
     },
     {
-      "id": "fullstack-developer",
-      "name": "Full Stack Developer",
-      "description": "Become proficient in both frontend and backend development for complete web applications"
+      "id": "ml-engineer",
+      "name": "ML & AI Engineer",
+      "description": "Master machine learning models, deep learning, LLMs, and generative AI. Deploy intelligent systems at scale."
+    },
+    {
+      "id": "backend-engineer",
+      "name": "Backend Engineer",
+      "description": "Build robust APIs and backend systems for data applications. Handle data ingestion, processing, and serving."
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "description": "Manage data infrastructure, CI/CD pipelines, and deployment. Ensure reliable data systems in production."
     },
     {
       "id": "cloud-engineer",
-      "name": "Cloud & Infrastructure Engineer",
-      "description": "Design and manage cloud infrastructure with AWS, Azure, and GCP"
-    },
-    {
-      "id": "ai-engineer",
-      "name": "AI Engineer",
-      "description": "Master artificial intelligence, LLMs, generative AI, and AI agents"
+      "name": "Cloud Data Engineer",
+      "description": "Design cloud-native data solutions on AWS, Azure, or GCP. Master data warehousing and analytics platforms."
     }
   ],
 
   "skills": [
     {
-      "id": "web-fundamentals",
-      "name": "Web Fundamentals",
-      "description": "Internet, HTTP, DNS, browsers, and core web concepts",
-      "agents": ["frontend-developer", "backend-developer", "fullstack-developer"]
+      "id": "python-programming",
+      "name": "Python Programming",
+      "description": "Python fundamentals, OOP, data structures, and scripting for data engineering",
+      "agents": ["data-engineer", "data-scientist", "ml-engineer", "backend-engineer"]
     },
     {
-      "id": "frontend-core",
-      "name": "Frontend Core",
-      "description": "HTML, CSS, JavaScript, and responsive design",
-      "agents": ["frontend-developer", "fullstack-developer"]
+      "id": "sql-databases",
+      "name": "SQL & Relational Databases",
+      "description": "SQL query optimization, schema design, indexing, transactions, and PostgreSQL/MySQL",
+      "agents": ["data-engineer", "data-scientist", "backend-engineer", "cloud-engineer"]
     },
     {
-      "id": "frontend-frameworks",
-      "name": "Frontend Frameworks",
-      "description": "React, Vue.js, Angular, and modern framework patterns",
-      "agents": ["frontend-developer", "fullstack-developer"]
-    },
-    {
-      "id": "backend-languages",
-      "name": "Backend Languages & Frameworks",
-      "description": "Python, Node.js, Java, Go, and web frameworks",
-      "agents": ["backend-developer", "fullstack-developer"]
-    },
-    {
-      "id": "databases",
-      "name": "Database Management",
-      "description": "SQL, NoSQL, database design, and optimization",
-      "agents": ["backend-developer", "fullstack-developer", "data-scientist", "devops-engineer"]
-    },
-    {
-      "id": "api-development",
-      "name": "API Development",
-      "description": "REST, GraphQL, authentication, and API design patterns",
-      "agents": ["backend-developer", "fullstack-developer", "ai-engineer"]
-    },
-    {
-      "id": "web-security",
-      "name": "Web Security & Best Practices",
-      "description": "Authentication, authorization, HTTPS, OWASP, and secure coding",
-      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer", "cloud-engineer"]
-    },
-    {
-      "id": "linux-devops",
-      "name": "Linux & System Administration",
-      "description": "Linux fundamentals, shell scripting, and system management",
-      "agents": ["devops-engineer", "backend-developer", "cloud-engineer"]
-    },
-    {
-      "id": "containerization",
-      "name": "Containerization & Orchestration",
-      "description": "Docker, Kubernetes, container security, and orchestration patterns",
-      "agents": ["devops-engineer", "fullstack-developer", "cloud-engineer", "backend-developer"]
-    },
-    {
-      "id": "iac-automation",
-      "name": "Infrastructure as Code",
-      "description": "Terraform, Ansible, CloudFormation, and IaC best practices",
-      "agents": ["devops-engineer", "cloud-engineer"]
-    },
-    {
-      "id": "cicd-pipelines",
-      "name": "CI/CD & Automation",
-      "description": "Jenkins, GitHub Actions, GitLab CI, and pipeline design",
-      "agents": ["devops-engineer", "backend-developer", "fullstack-developer", "cloud-engineer"]
-    },
-    {
-      "id": "cloud-platforms",
-      "name": "Cloud Platforms",
-      "description": "AWS, Azure, GCP services and cloud architecture",
-      "agents": ["cloud-engineer", "devops-engineer", "backend-developer", "fullstack-developer"]
-    },
-    {
-      "id": "monitoring-observability",
-      "name": "Monitoring & Observability",
-      "description": "Prometheus, Grafana, ELK Stack, logging, and alerting",
-      "agents": ["devops-engineer", "cloud-engineer", "backend-developer"]
-    },
-    {
-      "id": "git-version-control",
-      "name": "Version Control & Git",
-      "description": "Git workflows, branching, collaboration, and best practices",
-      "agents": ["frontend-developer", "backend-developer", "devops-engineer", "fullstack-developer", "data-scientist", "ai-engineer"]
-    },
-    {
-      "id": "testing",
-      "name": "Testing & Quality Assurance",
-      "description": "Unit, integration, E2E testing, and test-driven development",
-      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer"]
+      "id": "nosql-databases",
+      "name": "NoSQL & Data Stores",
+      "description": "MongoDB, Redis, Cassandra, DynamoDB, and key-value stores",
+      "agents": ["data-engineer", "backend-engineer", "cloud-engineer"]
     },
     {
       "id": "data-engineering",
-      "name": "Data Engineering",
-      "description": "Data pipelines, ETL, databases, and data warehousing",
-      "agents": ["data-scientist", "backend-developer", "devops-engineer"]
+      "name": "Data Engineering Core",
+      "description": "Data pipelines, ETL/ELT systems, workflow orchestration, and data modeling",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer"]
     },
     {
-      "id": "python-ml",
-      "name": "Python & Machine Learning",
-      "description": "Python programming, NumPy, Pandas, Scikit-learn, and ML fundamentals",
-      "agents": ["data-scientist", "ai-engineer", "backend-developer"]
+      "id": "etl-tools",
+      "name": "ETL Tools & Technologies",
+      "description": "Apache Airflow, Spark, Kafka, Flink, dbt, and modern data tools",
+      "agents": ["data-engineer", "devops-engineer"]
     },
     {
-      "id": "deep-learning",
-      "name": "Deep Learning & Neural Networks",
-      "description": "TensorFlow, PyTorch, CNNs, RNNs, transformers",
-      "agents": ["data-scientist", "ai-engineer"]
+      "id": "big-data",
+      "name": "Big Data & Distributed Systems",
+      "description": "Apache Spark, Hadoop, distributed computing, and large-scale data processing",
+      "agents": ["data-engineer", "cloud-engineer", "devops-engineer"]
     },
     {
-      "id": "llms-generative-ai",
-      "name": "LLMs & Generative AI",
-      "description": "Large Language Models, prompt engineering, RAG systems, AI agents",
-      "agents": ["ai-engineer", "backend-developer"]
-    },
-    {
-      "id": "ai-agents",
-      "name": "AI Agents & Orchestration",
-      "description": "Agent architectures, multi-agent systems, tools, and memory management",
-      "agents": ["ai-engineer", "backend-developer"]
-    },
-    {
-      "id": "mlops",
-      "name": "MLOps & Model Deployment",
-      "description": "Model versioning, experiment tracking, deployment, and monitoring",
-      "agents": ["data-scientist", "ai-engineer", "devops-engineer", "cloud-engineer"]
-    },
-    {
-      "id": "performance-optimization",
-      "name": "Performance Optimization",
-      "description": "Web performance, database optimization, caching, and scalability",
-      "agents": ["frontend-developer", "backend-developer", "fullstack-developer", "devops-engineer"]
-    },
-    {
-      "id": "devops-sre",
-      "name": "DevOps & SRE Practices",
-      "description": "Deployment strategies, reliability engineering, incident management",
-      "agents": ["devops-engineer", "cloud-engineer", "backend-developer"]
+      "id": "data-warehousing",
+      "name": "Data Warehousing & Lakes",
+      "description": "Snowflake, BigQuery, Redshift, Delta Lake, and data warehouse design",
+      "agents": ["data-engineer", "data-scientist", "cloud-engineer"]
     },
     {
       "id": "statistics-math",
       "name": "Statistics & Mathematics",
       "description": "Linear algebra, calculus, probability, and statistical analysis",
-      "agents": ["data-scientist", "ai-engineer"]
+      "agents": ["data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "description": "Supervised & unsupervised learning, Scikit-learn, model evaluation, and feature engineering",
+      "agents": ["data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning & Neural Networks",
+      "description": "TensorFlow, PyTorch, CNNs, RNNs, transformers, and neural network architectures",
+      "agents": ["ml-engineer", "data-scientist"]
+    },
+    {
+      "id": "llms-generative-ai",
+      "name": "LLMs & Generative AI",
+      "description": "Large Language Models, prompt engineering, RAG systems, and AI applications",
+      "agents": ["ml-engineer", "backend-engineer"]
+    },
+    {
+      "id": "api-development",
+      "name": "API Development & Data Services",
+      "description": "REST APIs, GraphQL, FastAPI, data service design, and integration",
+      "agents": ["backend-engineer", "data-engineer"]
+    },
+    {
+      "id": "cloud-platforms",
+      "name": "Cloud Data Platforms",
+      "description": "AWS (S3, Redshift, Glue), Azure (Synapse, Data Lake), GCP (BigQuery, Dataflow)",
+      "agents": ["cloud-engineer", "data-engineer", "ml-engineer"]
+    },
+    {
+      "id": "containerization",
+      "name": "Containerization & Orchestration",
+      "description": "Docker, Kubernetes, and container orchestration for data applications",
+      "agents": ["devops-engineer", "data-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "iac-automation",
+      "name": "Infrastructure as Code",
+      "description": "Terraform, Ansible, CloudFormation, and infrastructure automation",
+      "agents": ["devops-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "cicd-pipelines",
+      "name": "CI/CD & Data Pipelines",
+      "description": "Jenkins, GitHub Actions, GitLab CI, and automated deployment for data systems",
+      "agents": ["devops-engineer", "data-engineer"]
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & Model Deployment",
+      "description": "Model versioning, experiment tracking, MLflow, model registry, and production ML",
+      "agents": ["ml-engineer", "data-scientist", "devops-engineer"]
+    },
+    {
+      "id": "monitoring-observability",
+      "name": "Monitoring & Observability",
+      "description": "Prometheus, Grafana, data quality monitoring, alerting, and logging",
+      "agents": ["devops-engineer", "data-engineer"]
+    },
+    {
+      "id": "git-version-control",
+      "name": "Version Control & Git",
+      "description": "Git workflows, collaboration, branching, and code management",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer", "data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "testing-quality",
+      "name": "Testing & Quality Assurance",
+      "description": "Unit testing, integration testing, data validation, and data quality frameworks",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer"]
     },
     {
       "id": "career-growth",
       "name": "Career & Professional Development",
-      "description": "Portfolio building, interviews, job search, and continuous learning",
-      "agents": ["frontend-developer", "backend-developer", "devops-engineer", "data-scientist", "fullstack-developer", "cloud-engineer", "ai-engineer"]
+      "description": "Portfolio building, interviews, job search, and continuous learning for data engineers",
+      "agents": ["data-engineer", "data-scientist", "ml-engineer", "backend-engineer", "devops-engineer", "cloud-engineer"]
     }
   ],
 
@@ -241,21 +212,28 @@
   ],
 
   "keywords": [
-    "developer roadmap",
-    "learning path",
-    "skill development",
-    "frontend",
-    "backend",
-    "devops",
+    "data engineer",
+    "data engineering",
+    "ETL",
+    "data pipeline",
+    "SQL",
+    "database design",
+    "big data",
+    "Spark",
+    "Kafka",
+    "data warehouse",
+    "machine learning",
     "data science",
-    "full stack",
-    "cloud engineering",
-    "ai engineering",
+    "cloud data",
+    "AWS",
+    "Azure",
+    "GCP",
     "career development",
+    "learning path",
     "technical skills",
     "project ideas",
     "interview preparation"
   ],
 
-  "tags": ["learning", "career", "development", "skills", "education"]
+  "tags": ["data-engineering", "data-science", "ml-ops", "career", "learning", "education"]
 }
