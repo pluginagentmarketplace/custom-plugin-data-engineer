@@ -1,195 +1,286 @@
 ---
-description: Master infrastructure automation, CI/CD pipelines, containerization, and cloud deployment. Build and maintain reliable, scalable systems with DevOps practices.
-capabilities:
-  - Linux system administration
-  - Infrastructure as Code (Terraform, Ansible)
-  - Containerization (Docker, Kubernetes)
-  - CI/CD pipeline design and automation
+name: devops-engineer
+displayName: DevOps Engineer
+description: Master infrastructure automation, deployment pipelines, and operational excellence. Build and maintain scalable, reliable systems for data platforms and backend services.
+expertise:
+  - Infrastructure as Code (Terraform, CloudFormation, Ansible)
+  - Container orchestration (Docker, Kubernetes)
+  - CI/CD pipeline design and implementation
   - Cloud platforms (AWS, Azure, GCP)
-  - Monitoring and observability
-  - Security and compliance
-  - Performance optimization
-  - Incident management and SRE
-  - GitOps and deployment strategies
+  - Monitoring and observability (Prometheus, Grafana, ELK)
+  - Logging and alerting systems
+  - Database administration and replication
+  - Data pipeline orchestration
+  - Security and compliance automation
+  - Incident response and disaster recovery
+salaryRange:
+  entry: "$75K-$105K"
+  mid: "$105K-$145K"
+  senior: "$145K-$190K"
+  staff: "$190K-$280K+"
+timelineMonths:
+  complete_beginner: 10-15
+  programming_background: 7-10
+  full_time_accelerated: 5-8
 ---
 
-# DevOps Engineer
+# 🚀 DevOps Engineer - Complete Mastery Path
 
-Build and automate the infrastructure that powers applications. Master the tools and practices that enable rapid, reliable deployments and operational excellence.
+Architect and automate the infrastructure, deployment pipelines, and operational systems that keep data platforms and applications running reliably at scale. Master cloud platforms, containerization, infrastructure automation, and observability.
 
-## Overview
+## 📋 Executive Overview
 
-DevOps engineers bridge the gap between development and operations, automating infrastructure, deployments, and operational processes. This role combines systems administration, automation, and cloud expertise.
+DevOps engineers design, build, and maintain the infrastructure and deployment systems that enable development teams to ship code quickly and safely. This role bridges development and operations, emphasizing automation, reliability, and continuous delivery—critical for data platforms that must run 24/7.
 
-## Learning Path
+**Market Demand:** ⭐⭐⭐⭐⭐ (Top highest-paid tech roles)
+**Specialization Path:** DevOps Engineer → Site Reliability Engineer (SRE) → Infrastructure Architect
+**Data Focus:** Data pipeline automation, data warehouse deployment, ML model serving infrastructure
 
-### Phase 1: Foundations (Weeks 1-6)
-Build your technical foundation:
-- Linux administration (Ubuntu, CentOS)
-- Command-line proficiency (bash scripting)
-- Networking fundamentals (TCP/IP, DNS, HTTP)
-- Git version control and workflows
-- Python or Go programming basics
-- Package management (apt, yum)
+## 🎯 Who Should Choose This Path
 
-### Phase 2: Cloud Platforms (Weeks 7-12)
-Choose and master one cloud provider:
-- **AWS Recommended:**
-  - EC2, S3, RDS, VPC
-  - IAM and security
-  - Auto-scaling and load balancing
-  - CloudFormation basics
-- **Alternative:** Azure or Google Cloud Platform
-- Cloud architecture principles
-- Cost optimization
+✅ You enjoy building systems that run production services
+✅ You love automation and eliminating manual work
+✅ You want to understand how systems scale and stay reliable
+✅ You prefer infrastructure over application code
+✅ You're passionate about monitoring and observability
+✅ You want premium salaries in high-demand field
 
-### Phase 3: Containerization (Weeks 13-18)
-Master container technologies:
-- **Docker:**
-  - Image creation and management
-  - Container networking
-  - Docker Compose
-  - Image optimization and security
-- **Kubernetes:**
-  - Architecture (control plane, nodes)
-  - Pods, deployments, services
-  - ConfigMaps and secrets
-  - Persistent volumes and storage
-  - RBAC and security
+## 📚 Complete 40-Week Learning Path
 
-### Phase 4: Infrastructure as Code (Weeks 19-22)
-Automate infrastructure provisioning:
-- **Terraform:**
-  - HCL syntax and best practices
-  - State management
-  - Modules and reusability
-  - Multi-cloud provisioning
-- **Ansible:**
-  - Configuration management
-  - Playbook development
-  - Automation best practices
+### Phase 1: Linux & Systems Fundamentals (Weeks 1-4)
+**Objective:** Master Linux system administration
 
-### Phase 5: CI/CD & Automation (Weeks 23-26)
-Build automated pipelines:
-- **Choose One:** Jenkins, GitHub Actions, GitLab CI, Azure DevOps
-- Pipeline design patterns
-- Automated testing integration
-- Build and artifact management
-- Deployment automation
-- Release management
+- Linux distributions and package managers
+- File systems: ext4, LVM, disk management
+- Process management: ps, top, systemd
+- User and permission management: sudo, ACLs
+- Networking: ifconfig, netstat, netplan, iptables
+- SSH and remote access
+- System services and daemons
+- Performance monitoring: load average, memory, CPU
 
-### Phase 6: Monitoring & Operations (Weeks 27-30)
-Ensure system reliability:
-- **Prometheus & Grafana:**
-  - Metrics collection and visualization
-  - Alerting and dashboards
-- **Logging:** ELK Stack or Cloud-native solutions
-- **Tracing:** Distributed tracing systems
-- Application Performance Monitoring (APM)
-- SRE principles and incident management
+### Phase 2: Bash Scripting & Automation (Weeks 5-8)
+**Objective:** Automate infrastructure tasks with bash
 
-## Key Skills
+- Shell scripting: variables, loops, conditionals, functions
+- Text processing: awk, sed, grep
+- System administration scripts
+- Cron jobs for scheduled tasks
+- Error handling and logging
+- Advanced shell features
+- Shell best practices and optimization
 
-**Essential**
-- Linux system administration
-- Shell scripting (Bash)
-- Docker and container concepts
-- One cloud platform (AWS, Azure, or GCP)
-- Git and CI/CD basics
+### Phase 3: Version Control & Collaboration (Weeks 9-10)
+**Objective:** Master git workflows
 
-**Important**
-- Kubernetes orchestration
-- Terraform or CloudFormation
-- Monitoring and logging tools
+- Git fundamentals and advanced workflows
+- Branching strategies: Git Flow, GitHub Flow
+- Merge strategies and conflict resolution
+- Git hooks and automation
+- Collaborative development practices
+
+### Phase 4: Containerization (Weeks 11-16)
+**Objective:** Master Docker and container technologies
+
+- Docker architecture and concepts
+- Dockerfile: efficient image creation
+- Docker images: layers, caching, optimization
+- Docker registries: Docker Hub, ECR, GCR
+- Docker Compose: multi-container applications
+- Container security: scanning, least privilege
+- Docker networking and volumes
+- Docker best practices
+
+### Phase 5: Kubernetes Orchestration (Weeks 17-24)
+**Objective:** Deploy and manage containers at scale
+
+- Kubernetes architecture: control plane, nodes, etcd
+- Pods, Deployments, StatefulSets, DaemonSets
+- Services: ClusterIP, NodePort, LoadBalancer
+- Ingress: routing and load balancing
+- Networking: CNI, network policies
+- Storage: PersistentVolumes, PersistentVolumeClaims
+- ConfigMaps and Secrets
+- RBAC: authentication and authorization
+- Helm: package management and templating
+- Kubernetes operators and CRDs
+- Multi-cluster and federation
+
+### Phase 6: Cloud Platforms Mastery (Weeks 25-30)
+**Objective:** Master major cloud ecosystems
+
+**AWS (Primary):**
+- Compute: EC2, Auto Scaling, Load Balancing
+- Storage: S3, EBS, EFS, Glacier
+- Networking: VPC, subnets, security groups, NAT
+- Database: RDS, DynamoDB, Aurora
+- Container services: ECR, ECS, EKS
+- Monitoring: CloudWatch, X-Ray
+- IAM: policies, roles, authentication
+- Cost management and optimization
+
+**GCP & Azure:**
+- Core compute and storage services
+- Database services
+- Container orchestration (GKE, AKS)
 - Networking and security
-- Performance optimization
+- Cost analysis
 
-**Advanced**
-- Service mesh (Istio, Linkerd)
-- GitOps practices
-- Site Reliability Engineering (SRE)
-- Chaos engineering
-- Multi-cloud and hybrid cloud
+### Phase 7: Infrastructure as Code (Weeks 31-34)
+**Objective:** Automate infrastructure provisioning
 
-## Prerequisites
+- Terraform: HCL syntax, modules, state
+- AWS CloudFormation
+- Ansible for configuration management
+- Packer for image building
+- Multi-environment management
+- IaC best practices and CI/CD integration
+- State management and remote backends
 
-- Linux comfort level
-- Networking fundamentals
-- Programming basics (Python/Bash)
-- Problem-solving and troubleshooting
-- 20-30 hours per week commitment
+### Phase 8: CI/CD & Deployment (Weeks 35-38)
+**Objective:** Build automated deployment pipelines
 
-## Timeline
+- CI/CD concepts and benefits
+- Jenkins: pipelines, plugins, distributed builds
+- GitHub Actions: workflows and runners
+- GitLab CI: configuration and auto-scaling
+- Artifact management and versioning
+- Build optimization and caching
+- Deployment strategies: blue-green, canary, rolling
+- Feature flags and gradual rollouts
+- Automated testing integration
+- Rollback and recovery
 
-- **Complete Beginner:** 12-18 months
-- **With Sysadmin Background:** 8-12 months
-- **Intensive (Full-Time):** 6-9 months
+### Phase 9: Monitoring, Logging & Observability (Weeks 39-40)
+**Objective:** Observe and operate systems reliably
 
-## Key Technologies
+- Metrics: collection, storage, querying
+- Prometheus: architecture and scraping
+- Grafana: dashboards and alerting
+- Logging: ELK Stack, Splunk, centralized solutions
+- Distributed tracing: Jaeger, Zipkin
+- Application Performance Monitoring (APM)
+- Alerting: strategies, notification routing
+- Incident management and on-call
 
-**Cloud Platforms:** AWS, Azure, GCP
-**Containerization:** Docker, Podman
-**Orchestration:** Kubernetes, Docker Swarm
-**IaC:** Terraform, Ansible, CloudFormation
-**CI/CD:** Jenkins, GitHub Actions, GitLab CI
-**Monitoring:** Prometheus, Grafana, ELK, Datadog
-**Networking:** Nginx, HAProxy, Traefik
+## 🔧 Complete Technology Stack
 
-## Certifications to Consider
+**Operating Systems:**
+- Linux (Ubuntu, CentOS, Amazon Linux)
+- Bash/shell scripting
 
-- AWS Certified Cloud Practitioner
-- AWS Certified Solutions Architect
-- Azure Administrator (AZ-104)
-- Certified Kubernetes Administrator (CKA)
-- HashiCorp Certified: Terraform Associate
+**Containerization:**
+- Docker & Docker Compose
+- Podman (Docker alternative)
+- Container registries: ECR, GCR, Docker Hub
 
-## Projects to Build
+**Orchestration:**
+- Kubernetes (core)
+- Helm (package management)
+- ArgoCD, Flux (GitOps)
+- Docker Swarm (alternative)
 
-1. **Automated Infrastructure** - IaC for multi-tier application
-2. **CI/CD Pipeline** - Complete build and deploy automation
-3. **Kubernetes Deployment** - Containerized application
-4. **Monitoring Stack** - Prometheus + Grafana dashboards
-5. **Multi-Region Setup** - High-availability deployment
+**Infrastructure as Code:**
+- Terraform (primary)
+- AWS CloudFormation
+- Ansible (configuration)
+- Packer (image building)
 
-## Career Path
+**Cloud Platforms:**
+- AWS: EC2, S3, RDS, Redshift, Lambda, EKS, ECS
+- GCP: Compute Engine, Cloud Storage, Cloud SQL, GKE
+- Azure: VMs, App Service, SQL Database, AKS
 
-- **Entry Level:** $70K-$110K
-- **Mid-Level:** $110K-$150K
-- **Senior:** $150K-$200K
-- **Staff/Lead:** $200K-$280K+
+**CI/CD:**
+- Jenkins, GitHub Actions, GitLab CI
+- CircleCI, Travis CI, Azure Pipelines
 
-## Learning Methodology
+**Monitoring & Logging:**
+- Prometheus + Grafana
+- ELK Stack: Elasticsearch, Logstash, Kibana
+- Datadog, New Relic, Splunk
+- Jaeger (distributed tracing)
+- CloudWatch (AWS)
 
-1. **Hands-On Labs:** Set up your own Kubernetes cluster
-2. **Infrastructure as Code:** Version everything
-3. **Automation First:** Eliminate manual processes
-4. **Monitoring from Day One:** Observe all your systems
-5. **Disaster Recovery:** Practice failovers
-6. **Documentation:** Keep it current
-7. **Open Source:** Contribute to DevOps projects
+**Security & Secrets:**
+- HashiCorp Vault
+- AWS Secrets Manager
+- Sealed Secrets (Kubernetes)
+- Trivy, Falco (security scanning)
 
-## DORA Metrics (Track These)
+**Networking:**
+- Nginx, HAProxy (load balancers)
+- Traefik (modern proxy)
+- istio (service mesh)
 
-- Deployment Frequency
-- Lead Time for Changes
-- Mean Time to Recovery (MTTR)
-- Change Failure Rate
+## 📈 Career Progression
 
-## DevOps Tools Ecosystem
+```
+Entry Level (1-2 years, $75-105K)
+  ↓ Master one cloud platform
+  ↓ Deploy applications
+  ↓ Basic monitoring setup
+  ↓
+Mid-Level (3-5 years, $105-145K)
+  ↓ Design infrastructure
+  ↓ Implement CI/CD pipelines
+  ↓ Lead infrastructure projects
+  ↓
+Senior (5-8 years, $145-190K)
+  ↓ Set infrastructure standards
+  ↓ Drive reliability initiatives
+  ↓ Cloud strategy planning
+  ↓
+Staff/Principal (8+ years, $190-280K+)
+  ↓ Define organizational infrastructure strategy
+  ↓ Mentor engineering teams
+  ↓ Innovation and research
+```
 
-**Provisioning:** Terraform, Ansible, CloudFormation
-**Deployment:** Kubernetes, Helm, ArgoCD, Flux
-**CI/CD:** Jenkins, GitHub Actions, GitLab CI
-**Monitoring:** Prometheus, Grafana, Datadog, New Relic
-**Logging:** ELK Stack, Loki, CloudWatch
-**Security:** Vault, Trivy, Falco
-**Communication:** Slack, PagerDuty
+## 🎯 Real-World Specializations
 
-## Keep Learning
+1. **Site Reliability Engineer (SRE)** - Reliability, SLOs, incident response
+2. **Cloud Architect** - Multi-cloud, cost optimization, security
+3. **Security Engineer** - Infrastructure security, compliance, secrets
+4. **Platform Engineer** - Internal developer platforms, self-service
+5. **Data Engineer (Ops)** - Data infrastructure, warehouse operations
 
-- Follow DevOps trends (serverless, edge computing)
-- Study SRE practices from Google and others
-- Join DevOps communities and meetups
-- Contribute to open-source tools
-- Attend conferences (KubeCon, DevOps Days)
-- Build personal lab environments
+## ✅ Success Checklist
+
+### Foundations (1-2 months)
+- [ ] Master Linux command line proficiency
+- [ ] Write functional Bash scripts
+- [ ] Understand networking (TCP/IP, DNS)
+- [ ] Use git professionally
+- [ ] Configure and manage Linux servers
+
+### Intermediate (3-6 months)
+- [ ] Build Docker images and compose applications
+- [ ] Deploy applications to cloud
+- [ ] Create basic CI/CD pipelines
+- [ ] Set up monitoring and alerting
+- [ ] Use Terraform for infrastructure
+
+### Advanced (6-12 months)
+- [ ] Design Kubernetes clusters for production
+- [ ] Implement complex CI/CD workflows
+- [ ] Design for high availability
+- [ ] Build complete observability stacks
+- [ ] Optimize costs and performance
+
+## 🚀 Next Steps
+
+1. Master Linux system administration
+2. Learn bash scripting for automation
+3. Study Docker and containerization
+4. Choose and master one cloud (AWS recommended)
+5. Learn Kubernetes fundamentals
+6. Master Infrastructure as Code (Terraform)
+7. Build CI/CD pipelines
+8. Implement monitoring and observability
+9. Study SRE principles
+10. Pursue cloud certifications
+
+---
+
+**Ready to start?** Begin with /start-learning or jump to /skill-deep-dive for specific topics.

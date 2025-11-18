@@ -1,81 +1,79 @@
-# Roadmap Status
+# 📊 Roadmap Status - Track Your Progress
 
-Track your progress on your selected learning path and see what's next.
+Check your progress on your learning roadmap and get next steps.
 
 ## Usage
 
-`/roadmap-status`
-
-## What It Shows
-
-- **Current Role**: Your selected developer path
-- **Progress**: Where you are in the learning journey
-- **Completed Skills**: What you've mastered
-- **Next Steps**: What to learn next
-- **Timeline**: How much time remains
-- **Milestones**: Key achievements to reach
-- **Resources Used**: Your learning materials
-- **Projects Built**: Your portfolio pieces
-
-## Example Output
-
 ```
-Your DevOps Learning Journey
-
-Phase: 3 of 7 (Containerization)
-Progress: 40% Complete
-
-Completed:
-✓ Linux fundamentals
-✓ Python scripting
-✓ Git and version control
-✓ AWS basics
-
-Current Focus:
-→ Docker fundamentals
-→ Container concepts
-→ Image creation and management
-
-Next Up (Weeks 5-6):
-→ Kubernetes basics
-→ Pod and deployment concepts
-→ Service discovery
-
-Timeline:
-Started: 3 months ago
-Est. Completion: 9 more months
-Pace: On track (20 hrs/week)
-
-Latest Project:
-🔨 Working on: Docker containerized app deployment
-
-Recommended This Week:
-📚 Study: Kubernetes architecture
-💻 Build: Deploy app to Docker
+/roadmap-status
 ```
 
-## How It Works
+## What You'll See
 
-- Share your learning goals with Claude
-- Update your progress regularly
-- Ask for guidance on next steps
-- Adjust your pace if needed
-- Get motivation and encouragement
+✅ Current role & phase  
+✅ Weeks completed & remaining  
+✅ Technologies learned so far  
+✅ Skills mastered  
+✅ Projects completed  
+✅ Next week objectives  
+✅ Time estimate to next milestone  
+✅ Salary progression projection  
+✅ Job readiness assessment  
 
-## Update Your Progress
+## Progress Tracking Milestones
 
-Tell Claude about:
-- Skills you've just learned
-- Projects you've completed
-- Challenges you're facing
-- Time commitment changes
-- Questions you have
+**Month 1-3: Foundations**
+- ✅ Understand fundamentals
+- ✅ Write basic code
+- ✅ Complete first 1-2 projects
+- **Status:** Beginner level
 
-## Features
+**Month 3-6: Building**
+- ✅ Intermediate projects
+- ✅ Multiple technologies
+- ✅ Production-quality code
+- **Status:** Early intermediate
 
-- Personalized to your role and pace
-- Adjusts recommendations based on progress
-- Suggests projects at your level
-- Identifies knowledge gaps
-- Celebrates milestones
-- Keeps you motivated
+**Month 6-9: Deepening**
+- ✅ Complex projects
+- ✅ Specialization focus
+- ✅ Interview prep start
+- **Status:** Strong intermediate
+
+**Month 9-12: Mastering**
+- ✅ Advanced projects
+- ✅ Technical depth
+- ✅ Portfolio ready
+- **Status:** Junior-level ready
+
+**Month 12+: Professional**
+- ✅ Job interviews
+- ✅ First role
+- ✅ Continuous learning
+- **Status:** Professional
+
+## Career Readiness by Phase
+
+**Phase 1-2:** Junior understanding (0-3 months)  
+**Phase 3-4:** Intermediate capability (3-6 months)  
+**Phase 5-6:** Advanced skills (6-9 months)  
+**Phase 7:** Production ready (9-12 months)  
+**Beyond:** Expert, leadership (12+ months)
+
+## 🎯 Common Questions
+
+**Q: Am I on track?**  
+A: Compare your month vs milestones. 20-30 hours/week = on track.
+
+**Q: Can I go faster?**  
+A: Yes, increase hours/week or do more projects.
+
+**Q: What if I'm behind?**  
+A: Reassess time commitment. Quality > Speed.
+
+**Q: When can I interview?**  
+A: Month 9-12 with 3-4 portfolio projects.
+
+---
+
+**Need Help?** Use `/assessment` to find knowledge gaps!

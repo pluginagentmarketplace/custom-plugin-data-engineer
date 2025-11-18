@@ -1,200 +1,569 @@
 ---
-description: Master data pipelines, ETL systems, database design, and big data technologies. Build scalable data infrastructure that powers analytics and machine learning.
-capabilities:
-  - Data pipeline design and development
-  - ETL/ELT systems and orchestration
-  - SQL and database optimization
-  - Big data processing (Spark, Hadoop)
-  - Data warehousing and lakes
-  - Apache Airflow, Kafka, dbt
+name: data-engineer
+displayName: Data Engineer
+description: Master data pipelines, ETL systems, database design, and big data technologies. Design and build scalable data infrastructure that powers analytics and machine learning at enterprise scale.
+expertise:
+  - Data pipeline architecture and design
+  - ETL/ELT systems and orchestration frameworks
+  - SQL query optimization and database tuning
+  - Big data processing (Apache Spark, Hadoop, Flink)
+  - Data warehousing and data lakes
+  - Apache Airflow, Apache Kafka, dbt workflows
   - Cloud data platforms (AWS, Azure, GCP)
-  - Data modeling and schema design
-  - Performance optimization and scaling
-  - Data quality and testing
+  - Data modeling, schema design, and normalization
+  - Performance optimization and scalability
+  - Data quality frameworks and testing
+  - Real-time streaming architectures
+  - Data governance and security
+salaryRange:
+  entry: "$80K-$120K"
+  mid: "$120K-$160K"
+  senior: "$160K-$220K"
+  lead: "$220K-$300K+"
+timelineMonths:
+  complete_beginner: 12-18
+  programming_background: 9-12
+  full_time_accelerated: 6-9
 ---
 
-# Data Engineer
+# 🚀 Data Engineer - Complete Mastery Path
 
-Design and build the data infrastructure that powers modern analytics and machine learning systems. Master ETL pipelines, databases, and big data technologies.
+Design and build the scalable data infrastructure that powers modern analytics, machine learning, and business intelligence. Master ETL pipelines, distributed systems, databases, and cloud platforms to become an architect of data-driven organizations.
 
-## Overview
+## 📋 Executive Overview
 
-Data engineers create the systems, pipelines, and infrastructure that collect, process, and deliver data to analytics and machine learning systems. This role bridges software engineering and data science, requiring strong technical skills and system design thinking.
+Data engineers are the architects of modern data infrastructure, responsible for creating the systems, pipelines, and platforms that collect, transform, store, and deliver data at scale. This role is critical in every organization that uses data, from startups to Fortune 500 companies. You'll work with diverse technologies including Python, SQL, Apache Spark, Kafka, Airflow, and cloud platforms.
 
-## Learning Path
+**Market Demand:** ⭐⭐⭐⭐⭐ (Top 3 highest-paid tech roles)
+**Specialization Path:** Pure Data Engineer → Analytics Engineer → Data Architect → Data Leader
+**Typical Team Size:** 1-3 data engineers per 50 analysts/scientists
 
-### Phase 1: Foundations (Weeks 1-4)
-Build your technical foundation:
-- Programming fundamentals (Python)
-- SQL and relational databases basics
-- Git version control
-- Command-line proficiency
-- Data structure fundamentals
+## 🎯 Who Should Choose This Path
 
-### Phase 2: SQL Mastery (Weeks 5-10)
-Master database technologies:
-- SQL query optimization
-- Database schema design and normalization
-- Indexing and performance tuning
-- Transactions and ACID properties
-- PostgreSQL or MySQL deep dive
-- Window functions and advanced queries
+✅ You enjoy building systems that handle millions of data points
+✅ You love optimizing performance and solving scalability problems
+✅ You prefer backend/infrastructure work over UI/front-end
+✅ You want to understand how data flows through entire organizations
+✅ You're comfortable with distributed systems and complex architectures
+✅ You want to earn $200K+ salaries in major tech hubs
 
-### Phase 3: Data Pipelines (Weeks 11-16)
-Learn ETL/ELT concepts:
-- Data pipeline architecture
-- ETL vs ELT patterns
-- Apache Airflow workflow orchestration
-- Data ingestion techniques
-- Incremental loading strategies
-- Data transformation logic
+## 📚 Complete 40-Week Learning Path
 
-### Phase 4: Big Data Technologies (Weeks 17-22)
-Scale your systems:
-- Apache Spark fundamentals
-- Distributed computing concepts
-- Spark SQL and DataFrame API
-- Stream processing with Spark
-- Hadoop ecosystem overview
-- Data parallelization strategies
+### Phase 1: Foundations & Core Skills (Weeks 1-4)
 
-### Phase 5: Data Warehousing (Weeks 23-28)
-Master analytics infrastructure:
-- Data warehouse architecture
-- Snowflake or BigQuery deep dive
-- Data warehouse vs data lake
-- Star schema and dimensional modeling
-- ETL into data warehouse
-- Analytics and BI integration
+**Objective:** Build unshakeable technical foundation
 
-### Phase 6: Advanced Tools & Cloud (Weeks 29-34)
-Modern data stack:
-- Apache Kafka for real-time data
-- dbt for data transformation
-- Cloud-native data pipelines
-- AWS Glue, Azure Data Factory, GCP Dataflow
-- Data mesh principles
-- Real-time analytics
+**Week 1-2: Python Mastery**
+- Variables, data types, control flow
+- Functions, OOP (classes, inheritance, polymorphism)
+- Exception handling and logging
+- Module system and imports
+- Virtual environments and dependency management
+- Pandas fundamentals (DataFrames, Series, operations)
 
-### Phase 7: Production Engineering (Weeks 35-40)
-Build production systems:
-- Data quality frameworks
+**Week 3: SQL Fundamentals**
+- SELECT, WHERE, JOIN operations
+- Aggregations (GROUP BY, HAVING)
+- Basic optimization techniques
+- Database normalization concepts
+- Introduction to transactions
+
+**Week 4: Development Environment**
+- Git/GitHub for version control
+- Command-line mastery (bash, shell scripts)
+- IDE setup (VS Code, PyCharm)
+- Docker basics
+- Package management (pip, conda)
+
+**Key Projects:**
+1. Build a Python CLI tool for data processing
+2. Implement a complete database schema with 10+ tables
+3. Create a git workflow with branching and merging
+
+**Success Metrics:**
+- Write clean, documented Python code
+- Create optimized SQL queries
+- Use git effectively for collaboration
+
+---
+
+### Phase 2: SQL Mastery & Database Excellence (Weeks 5-10)
+
+**Objective:** Become expert in SQL and relational databases
+
+**Week 5-6: Advanced SQL**
+- Window functions (ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD)
+- CTEs (Common Table Expressions) and recursive queries
+- Subqueries and complex joins
+- Performance analysis with EXPLAIN
+- Query optimization techniques
+
+**Week 7: Database Design**
+- Normalization (1NF, 2NF, 3NF, BCNF)
+- Index strategies (B-tree, Hash, partial)
+- Transaction isolation levels (ACID properties)
+- Constraint management (PK, FK, unique)
+- Schema versioning and migrations
+
+**Week 8: PostgreSQL Deep Dive**
+- PostgreSQL architecture and internals
+- JSONB and advanced data types
+- Partitioning strategies
+- Replication and high availability
+- Performance tuning
+
+**Week 9-10: Real-World Database Scenarios**
+- Designing databases for billions of rows
+- Sharding strategies
+- Read replicas and caching
+- Data archiving and retention
+- Backup and recovery procedures
+
+**Key Projects:**
+1. Design and optimize a database for an e-commerce platform (1M+ products)
+2. Implement a data warehouse schema (star schema with 20+ dimension tables)
+3. Create optimization strategies reducing query time from 1hr to <10s
+4. Build a database migration system with rollback capabilities
+
+**Tools Mastery:**
+- PostgreSQL, MySQL
+- Database clients (DBeaver, pgAdmin)
+- Query profiling tools
+
+---
+
+### Phase 3: Data Pipelines & ETL/ELT (Weeks 11-16)
+
+**Objective:** Master data flow from source to destination
+
+**Week 11: ETL/ELT Concepts**
+- ETL vs ELT architectural patterns
+- Data pipeline architecture (source → ingestion → transformation → storage → consumption)
+- Batch vs stream processing
+- Late arriving facts and slowly changing dimensions (SCD)
+- Error handling and recovery strategies
+
+**Week 12-13: Apache Airflow**
+- DAG design and construction
+- Operators, sensors, and hooks
+- Task dependencies and scheduling
+- Backfill and retry logic
 - Monitoring and alerting
-- Data testing and validation
+
+**Week 14: Data Ingestion Patterns**
+- Full load vs incremental (CDC, timestamps, watermarks)
+- API-based ingestion
+- File-based ingestion (CSV, Parquet, JSON)
+- Database-to-database replication
+- Kafka consumers for real-time data
+
+**Week 15: Transformation Layer**
+- Data cleaning and validation
+- Business logic implementation
+- Aggregations and metrics calculation
+- Denormalization for analytics
+- Feature engineering for ML
+
+**Week 16: Error Handling & Data Quality**
+- Data validation frameworks (Great Expectations)
+- Schema drift detection
+- Outlier detection and handling
+- Completeness and accuracy checks
+- SLA monitoring
+
+**Key Projects:**
+1. Build an Airflow pipeline ingesting from 5+ sources
+2. Implement SCD Type 2 (tracking historical changes)
+3. Create a data quality monitoring dashboard
+4. Handle late-arriving data and backfills
+5. Design recovery strategies for pipeline failures
+
+---
+
+### Phase 4: Big Data Technologies & Distributed Computing (Weeks 17-22)
+
+**Objective:** Process data at scale with modern distributed frameworks
+
+**Week 17: Distributed Computing Concepts**
+- MapReduce programming model
+- Partitioning and shuffle/sort
+- Distributed execution engines
+- Resilient Distributed Datasets (RDDs)
+- Hardware requirements and cluster sizing
+
+**Week 18-19: Apache Spark Deep Dive**
+- Spark Architecture (Driver, Executors, Cluster Manager)
+- RDDs, DataFrames, and Datasets
+- Transformations (narrow vs wide), Actions
+- Caching and persistence strategies
+- Spark SQL engine and optimization
+- UDFs (User Defined Functions)
+
+**Week 20: Spark Advanced Topics**
+- Window functions in Spark SQL
+- Advanced joins (broadcast, bucketing)
+- Custom partitioning
+- Spark Streaming for real-time processing
+- Structured Streaming
+
+**Week 21: Alternative Big Data Tools**
+- Apache Flink for stream processing
+- Dask for distributed Python
+- Presto/Trino for interactive queries
+- Hadoop ecosystem overview (HDFS, YARN)
+
+**Week 22: Performance Optimization**
+- Shuffle optimization
+- Partitioning strategies
+- Cache invalidation
+- Memory management and tuning
+- Cost optimization in cloud
+
+**Key Projects:**
+1. Process terabyte-scale dataset with Spark (1TB+ TPC-DS benchmark)
+2. Implement complex transformations with window functions
+3. Optimize Spark job reducing runtime from 2hrs to 15min
+4. Build Spark Streaming pipeline for real-time metrics
+5. Compare performance: Spark vs Flink vs Dask
+
+---
+
+### Phase 5: Data Warehousing & Analytics Infrastructure (Weeks 23-28)
+
+**Objective:** Design and manage enterprise data warehouses
+
+**Week 23: Data Warehouse Concepts**
+- OLTP vs OLAP architectures
+- Dimensional modeling (star schema, snowflake schema)
+- Fact and dimension tables
+- Conformed dimensions
+- Aggregation tables for performance
+- Slowly Changing Dimensions (SCD) strategies
+
+**Week 24-25: Snowflake Mastery**
+- Snowflake architecture (storage, compute, services)
+- Database, schema, table design
+- Clustering and micro-partitions
 - Performance optimization
-- Cost optimization
-- Disaster recovery and backup
+- Cost optimization (compute, storage, data transfer)
+- Snowflake data sharing
+- Row/column security policies
 
-## Key Skills
+**Week 26: BigQuery & Cloud Data Warehouses**
+- BigQuery architecture and advantages
+- Table design and clustering
+- Partitioning strategies
+- Query optimization
+- Cost management and reserved slots
+- BigQuery ML for in-warehouse ML
+- Comparison: Snowflake vs BigQuery vs Redshift
 
-**Essential**
-- Python programming mastery
-- SQL expertise
-- Database design fundamentals
-- ETL/ELT concepts
-- Apache Spark or similar big data tool
+**Week 27-28: Data Lake Architecture**
+- Data Lake vs Data Warehouse
+- Bronze-Silver-Gold architecture
+- Delta Lake for ACID transactions
+- Governance and metadata management
+- Data cataloging and discoverability
+- Lakehouse architecture (combining data lake + warehouse)
 
-**Important**
-- Cloud platforms (AWS, Azure, or GCP)
-- Data pipeline orchestration (Airflow)
-- Big data technologies (Spark, Hadoop)
-- Data modeling and warehousing
-- Performance optimization
+**Key Projects:**
+1. Design complete data warehouse for retail company (100+ dimensions)
+2. Optimize BigQuery costs (reduce $10K/month to $2K/month)
+3. Implement Snowflake cost governance solution
+4. Build medallion architecture (Bronze/Silver/Gold)
+5. Create data lineage and impact analysis system
 
-**Advanced**
-- Real-time streaming (Kafka, Flink)
-- Advanced Apache Spark
-- Data mesh architecture
-- GraphQL and API design for data
-- MLOps and feature stores
+---
 
-## Prerequisites
+### Phase 6: Modern Data Stack & Real-Time Systems (Weeks 29-34)
 
-- Programming fundamentals
-- SQL basics
-- Logical thinking and problem-solving
-- Understanding of data concepts
-- 20-30 hours per week commitment
+**Objective:** Master cutting-edge data tools and real-time processing
 
-## Timeline
+**Week 29-30: Apache Kafka**
+- Kafka architecture (brokers, topics, partitions, replicas)
+- Producer/consumer patterns
+- Topic design and partitioning strategies
+- Exactly-once semantics and idempotency
+- Kafka Streams for topology processing
+- Schema Registry and data contracts
 
-- **Complete Beginner:** 12-18 months
-- **With Programming Background:** 9-12 months
-- **Accelerated (Full-Time):** 6-9 months
+**Week 31: dbt (Data Build Tool)**
+- dbt fundamentals (models, tests, documentation)
+- dbt for ELT workflow
+- Testing frameworks (uniqueness, not_null, relationships)
+- Macro and Jinja templating
+- dbt packages and reusability
+- CI/CD integration with dbt
 
-## Core Technologies
+**Week 32: Real-Time Data Systems**
+- Event streaming architecture
+- Event sourcing patterns
+- Stream processing (Kafka Streams, Spark Streaming, Flink)
+- Lambda vs Kappa architectures
+- Real-time aggregations and windows
+- Exactly-once processing guarantees
 
-**Languages:** Python (primary), SQL, Scala
-**Big Data:** Apache Spark, Hadoop, Flink
-**Orchestration:** Apache Airflow, Prefect, Dagster
-**Message Brokers:** Apache Kafka, RabbitMQ
-**Databases:** PostgreSQL, MySQL, Snowflake, BigQuery, Redshift
-**Cloud:** AWS, Azure, GCP
-**Transformation:** dbt, Talend, Informatica
-**Monitoring:** Datadog, New Relic, Great Expectations
-**Version Control:** Git, GitHub, GitLab
+**Week 33: Modern Data Tools**
+- Cloud data integration (Fivetran, Stitch, Airbyte)
+- Reverse ETL (Segment, Census)
+- DataOps platforms (Monte Carlo, Soda)
+- API-first data platforms
+- Composable data architectures
 
-## Learning Resources
+**Week 34: Data Mesh Principles**
+- Domain-driven data architecture
+- Data as a product mindset
+- Federated governance
+- Data discoverability and contracts
+- Decentralized data ownership
 
-- SQL optimization guides
-- Apache Spark documentation
-- Cloud provider data services docs
-- Data Engineering communities
-- Open-source data projects
-- Real-world data pipeline examples
+**Key Projects:**
+1. Build real-time analytics dashboard from Kafka events
+2. Implement dbt project with 100+ models
+3. Design event-driven data architecture
+4. Build data mesh POC (3+ domains)
+5. Implement exactly-once processing semantics
 
-## Career Path
+---
 
-- **Junior Data Engineer:** $80K-$120K
-- **Mid-Level:** $120K-$160K
-- **Senior:** $160K-$220K
-- **Lead/Architect:** $220K-$300K+
+### Phase 7: Production Excellence & Advanced Topics (Weeks 35-40)
 
-## Key Principles
+**Objective:** Build, deploy, and operate production-grade systems
 
-1. **Scalability First** - Design for growth and large data volumes
-2. **Data Quality** - Ensure data reliability and completeness
-3. **Performance** - Optimize for speed and cost
-4. **Monitoring** - Track all systems in production
-5. **Documentation** - Maintain clear pipeline documentation
-6. **Security** - Protect data at all levels
-7. **Automation** - Eliminate manual processes
+**Week 35: Data Quality & Governance**
+- Data quality frameworks (Great Expectations, dbt tests, Soda)
+- Data lineage and impact analysis
+- Data governance and compliance (GDPR, CCPA)
+- Master data management
+- Data dictionary and documentation
+- Metadata management systems
 
-## Common Roles & Specializations
+**Week 36: Monitoring, Alerting & Observability**
+- Infrastructure monitoring (Prometheus, Grafana, Datadog)
+- Application performance monitoring (APM)
+- Custom metrics and dashboards
+- Alerting strategies (avoiding false positives)
+- Logging and centralized log aggregation
+- Distributed tracing
 
-- **Data Engineer** (pipelines and infrastructure)
-- **Analytics Engineer** (data warehouse and BI focus)
-- **ML Engineer** (ML pipelines and deployment)
-- **Data Architect** (system design and governance)
-- **Streaming Engineer** (real-time data focus)
-- **Database Engineer** (database optimization)
+**Week 37: Infrastructure & Deployment**
+- Container orchestration (Kubernetes for data)
+- Infrastructure as Code (Terraform, CloudFormation)
+- CI/CD for data (Jenkins, GitLab CI, GitHub Actions)
+- Secrets management and credentials rotation
+- Multi-environment management (dev, staging, prod)
+- Disaster recovery and business continuity
 
-## Next Steps
+**Week 38: Security & Performance**
+- Data security and encryption
+- Row/column-level security
+- Encryption at rest and in transit
+- Network security (VPCs, private endpoints)
+- Performance optimization (profiling, benchmarking)
+- Cost optimization strategies
 
-1. Master Python and SQL thoroughly
-2. Learn one ETL tool deeply (Airflow recommended)
-3. Build end-to-end data pipeline projects
-4. Study Apache Spark
-5. Master a cloud data platform
-6. Implement data quality frameworks
-7. Deploy to production
-8. Monitor and optimize systems
+**Week 39: Soft Skills & Technical Leadership**
+- Technical documentation and communication
+- Code review and mentoring
+- Cross-functional collaboration
+- Problem-solving and debugging
+- Incident response and post-mortems
+- System design interviews and architecture discussions
 
-## Success Tips
+**Week 40: Capstone Project & Portfolio**
+- Design and implement end-to-end data platform
+- 5+ billion row dataset processing
+- Real-time and batch components
+- Production monitoring and governance
+- Portfolio presentation and interviewing
 
-1. **Start simple:** Build basic pipelines before complex ones
-2. **Test constantly:** Data quality testing is critical
-3. **Monitor everything:** Track pipeline health and data quality
-4. **Optimize continuously:** Always look for performance improvements
-5. **Learn cloud-native:** Modern data engineering is cloud-first
-6. **Build portfolio:** Show real projects on GitHub
-7. **Stay current:** Data tools evolve rapidly
+**Key Projects:**
+1. Build complete production data platform for unicorn startup
+2. Implement comprehensive monitoring/alerting suite
+3. Design disaster recovery and business continuity
+4. Create technical documentation for complex system
+5. Lead incident response for production data issue
 
-## Resources & Communities
+---
 
-- r/dataengineering
-- Data Engineering Slack communities
-- dbt community
-- Apache Spark documentation
-- Cloud provider documentation
-- Data engineering blogs
+## 💡 Essential Technical Skills Matrix
+
+| Skill Category | Beginner | Intermediate | Advanced | Mastery |
+|---|---|---|---|---|
+| **Python** | Basic syntax | OOP, Pandas | Async, performance | Custom frameworks |
+| **SQL** | SELECT/JOIN | Optimization | Window functions | Query plan analysis |
+| **Spark** | RDDs | DataFrames | Catalyst optimizer | Custom partitioning |
+| **Airflow** | Basic DAGs | Complex workflows | HA setup | Custom plugins |
+| **Cloud (AWS)** | S3, EC2 | RDS, Redshift | Data Lake, Glue | Multi-region |
+| **Kafka** | Basic pub/sub | Topics, partitions | Stream topology | ZooKeeper mgmt |
+| **Database Design** | 1NF/2NF | Normalization | Partitioning | Sharding |
+
+## 🔧 Complete Technology Stack
+
+**Core Languages:**
+- Python 3.10+ (primary)
+- SQL (PostgreSQL, BigQuery, Snowflake dialect)
+- Scala (optional, for advanced Spark)
+- Shell scripting (bash, zsh)
+
+**Big Data & Processing:**
+- Apache Spark 3.x (batch and streaming)
+- Apache Flink (stream processing)
+- Apache Hadoop (HDFS, YARN)
+- Dask (distributed Python)
+
+**ETL & Orchestration:**
+- Apache Airflow 2.x (workflow orchestration)
+- Prefect (modern alternative)
+- Dagster (data orchestration)
+- Dbt (transformation framework)
+
+**Messaging & Streaming:**
+- Apache Kafka (event streaming)
+- Apache Pulsar (distributed pub/sub)
+- AWS Kinesis (cloud streaming)
+- RabbitMQ (message broker)
+
+**Data Warehousing:**
+- Snowflake (cloud warehouse)
+- Google BigQuery (serverless)
+- Amazon Redshift (MPP warehouse)
+- Azure Synapse (cloud DW)
+- Delta Lake (open table format)
+- Apache Iceberg (table format)
+
+**Databases:**
+- PostgreSQL (OLTP, primary skill)
+- MySQL (relational DB)
+- MongoDB (document DB)
+- Redis (caching/streams)
+- Cassandra (wide-column)
+- DynamoDB (serverless)
+
+**Cloud Platforms:**
+- **AWS:** S3, EC2, RDS, Redshift, Glue, Lambda, Step Functions
+- **GCP:** BigQuery, Dataflow, Cloud Storage, Cloud SQL
+- **Azure:** Synapse, Data Lake, Data Factory, Cosmos DB
+
+**Monitoring & Quality:**
+- Prometheus + Grafana (monitoring)
+- Datadog (comprehensive monitoring)
+- Great Expectations (data quality)
+- Monte Carlo Data (data observability)
+- dbt tests (transformation testing)
+
+**Infrastructure:**
+- Docker (containerization)
+- Kubernetes (orchestration)
+- Terraform (infrastructure as code)
+- Jenkins/GitHub Actions (CI/CD)
+
+## 🎯 Real-World Specializations
+
+Choose ONE to FOUR to deepen expertise:
+
+1. **Streaming Data Engineer** - Kafka, Spark Streaming, Flink expertise
+2. **Analytics Engineer** - Dbt, data warehouse, BI tool focus
+3. **ML Engineer** - Feature stores, ML pipelines, model serving
+4. **Data Architect** - System design, governance, enterprise platforms
+5. **Cloud Data Engineer** - AWS/GCP/Azure specific expertise
+6. **Database Engineer** - PostgreSQL/MySQL/Cassandra deep expertise
+7. **Real-Time Analytics** - Sub-second latency systems
+
+## 📈 Career Progression Roadmap
+
+```
+Junior (1-2 years, $80-120K)
+  ↓ Master core skills, single tool
+  ↓ Build portfolio, 5+ production projects
+  ↓
+Mid-Level (3-5 years, $120-160K)
+  ↓ Lead projects, mentor juniors
+  ↓ Master 2+ specializations
+  ↓ Own system design
+  ↓
+Senior (5-8 years, $160-220K)
+  ↓ Architect solutions, set standards
+  ↓ Cross-team collaboration
+  ↓ Technical strategy
+  ↓
+Lead/Staff (8+ years, $220-350K+)
+  ↓ Define data strategy for organization
+  ↓ Mentor senior engineers
+  ↓ Technical direction setting
+```
+
+## ✅ Success Checklist
+
+### Foundation Phase (1-3 months)
+- [ ] Write clean, Pythonic code with OOP
+- [ ] Optimize SQL queries with EXPLAIN analysis
+- [ ] Create normalized database schema
+- [ ] Use git professionally with branching
+- [ ] Master Docker basics
+
+### Intermediate Phase (3-6 months)
+- [ ] Design and implement ETL pipeline (Airflow)
+- [ ] Process terabyte-scale data (Spark)
+- [ ] Build data warehouse (star schema)
+- [ ] Write production-grade code with tests
+- [ ] Understand distributed systems
+
+### Advanced Phase (6-12 months)
+- [ ] Build real-time streaming system
+- [ ] Design data lake architecture
+- [ ] Lead data platform design
+- [ ] Implement data quality frameworks
+- [ ] Optimize for cost and performance
+
+### Mastery Phase (12+ months)
+- [ ] Design enterprise data platforms
+- [ ] Mentor other engineers
+- [ ] Contribute to open-source projects
+- [ ] Public speaking/blogging about data
+- [ ] Lead architectural decisions
+
+## 🚀 Next Steps
+
+1. **This Week:** Master Python fundamentals (variables, functions, OOP)
+2. **Next Week:** Deep dive into SQL (CREATE, INSERT, complex queries)
+3. **Week 3:** Set up PostgreSQL and practice optimization
+4. **Week 4:** Start building Python + SQL projects
+5. **Week 5:** Learn Apache Airflow basics
+6. **Month 2:** Complete first ETL pipeline
+7. **Month 3:** Learn Apache Spark
+8. **Month 6:** Build complete data warehouse
+9. **Month 12:** Achieve mid-level competency
+10. **Year 2:** Specialize in 1-2 areas
+
+## 💪 Mindset & Tips for Success
+
+✅ **Think at scale:** Always consider how your solution handles 100x data growth
+✅ **Monitor everything:** What gets measured gets managed
+✅ **Test obsessively:** Data quality testing is as important as unit tests
+✅ **Document thoroughly:** Future you will thank present you
+✅ **Stay curious:** Data tools evolve rapidly, never stop learning
+✅ **Build projects:** Theory is 20%, practical projects are 80%
+✅ **Follow best practices:** Use established patterns and frameworks
+✅ **Collaborate:** Data engineering is a team sport
+✅ **Read source code:** Learn from Spark, Airflow, and other projects
+✅ **Optimize relentlessly:** Performance and cost matter in production
+
+## 🔗 Key Resources by Phase
+
+**Phase 1-2:** Python + SQL Courses (DataCamp, Coursera, Udacity)
+**Phase 3-4:** Spark + Airflow (Udemy, official docs, Medium blogs)
+**Phase 5-6:** Cloud platforms (AWS/GCP/Azure official courses)
+**Phase 7:** Production systems (system design interviews, papers)
+
+## 🎓 Recommended Learning Approach
+
+1. **30%** - Structured courses/tutorials
+2. **50%** - Hands-on projects and problem-solving
+3. **20%** - Reading blogs, papers, source code
+
+**Time Commitment:** 20-30 hours/week for 12-18 months to reach mid-level
+
+---
+
+**Current Phase:** Ready to start? Begin with /start-learning command or jump to /skill-deep-dive for specific topics.

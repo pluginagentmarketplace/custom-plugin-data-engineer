@@ -1,224 +1,296 @@
 ---
-description: Transform data into actionable insights using machine learning, statistics, and data analysis. Master Python, SQL, and ML algorithms for predictive modeling.
-capabilities:
+name: data-scientist
+displayName: Data Scientist
+description: Transform data into actionable insights using machine learning, statistics, and data analysis. Master predictive modeling, experimentation, and data-driven decision making.
+expertise:
   - Python programming and data manipulation (Pandas, NumPy)
   - Statistical analysis and hypothesis testing
   - Machine learning algorithms (supervised, unsupervised)
   - Deep learning and neural networks
   - Data visualization and storytelling
-  - SQL and database querying
+  - SQL and advanced database querying
   - Experimental design and A/B testing
   - Model evaluation and validation
   - Feature engineering and data preprocessing
   - MLOps and model deployment
+salaryRange:
+  entry: "$80K-$120K"
+  mid: "$120K-$160K"
+  senior: "$160K-$220K"
+  staff: "$220K-$300K+"
+timelineMonths:
+  complete_beginner: 12-18
+  programming_background: 9-12
+  full_time_accelerated: 6-9
 ---
 
-# Data Scientist
+# 🚀 Data Scientist - Complete Mastery Path
 
-Leverage data to solve complex business problems and drive decision-making through machine learning, statistical analysis, and data-driven insights.
+Transform raw data into actionable insights and predictive models using machine learning, statistics, and data analysis. Master the art and science of extracting patterns from data to drive business decisions.
 
-## Overview
+## 📋 Executive Overview
 
-Data scientists combine programming, statistics, and domain expertise to extract insights from data and build predictive models. This role sits at the intersection of mathematics, computer science, and business.
+Data scientists combine programming, statistics, mathematics, and domain expertise to extract insights from data and build predictive models. This role bridges business understanding and technical execution, making it one of the most interesting and well-paid tech careers.
 
-## Learning Path
+**Market Demand:** ⭐⭐⭐⭐⭐ (Highest-paid data role)
+**Specialization Path:** Data Scientist → ML Engineer → ML Leader
+**Key Skill:** Turning data into dollars through predictions and insights
 
-### Phase 1: Programming Foundation (Weeks 1-6)
-Build your technical foundation:
-- Python fundamentals
-  - Syntax, data types, control structures
-  - Functions and object-oriented programming
-  - File I/O and error handling
-- Command-line basics
-- Git version control
-- SQL fundamentals (SELECT, WHERE, JOIN)
+## 🎯 Who Should Choose This Path
 
-### Phase 2: Data Handling (Weeks 7-12)
-Learn to work with data:
-- **NumPy:** Numerical computing and arrays
-- **Pandas:** Data manipulation and analysis
-  - DataFrames and Series
-  - Cleaning and preprocessing
-  - Merging and aggregation
-- **SQL:** Complex queries, optimization
-- Database fundamentals
-- Data extraction and pipelines
+✅ You love mathematics and statistics
+✅ You enjoy solving complex analytical problems
+✅ You want to understand why data behaves the way it does
+✅ You're passionate about machine learning
+✅ You love data visualization and storytelling
+✅ You want to earn $300K+ in major tech hubs
 
-### Phase 3: Statistics & Mathematics (Weeks 13-18)
-Essential quantitative skills:
-- **Linear Algebra:**
-  - Vectors, matrices, transformations
-  - Eigenvalues and decomposition
-- **Calculus:**
-  - Derivatives and gradients
-  - Optimization concepts
-- **Probability & Statistics:**
-  - Distributions and sampling
-  - Hypothesis testing
-  - Correlation and regression
-  - Bayesian thinking
+## 📚 Complete 40-Week Learning Path
 
-### Phase 4: Exploratory Data Analysis (Weeks 19-22)
-Master the art of understanding data:
-- Data visualization (Matplotlib, Seaborn)
-- Statistical summaries and distributions
-- Pattern discovery and anomaly detection
-- Data quality assessment
-- Feature relationships and correlations
+### Phase 1: Python & Programming Foundations (Weeks 1-6)
+**Objective:** Master Python for data science
 
-### Phase 5: Machine Learning (Weeks 23-30)
-Build predictive models:
-- **Supervised Learning:**
-  - Linear/Logistic Regression
-  - Decision Trees and Random Forests
-  - Gradient Boosting (XGBoost, LightGBM)
-  - Support Vector Machines
-- **Unsupervised Learning:**
-  - Clustering (K-means, DBSCAN)
-  - Dimensionality reduction (PCA)
-- **Model Evaluation:**
-  - Cross-validation
-  - Metrics selection
-  - Overfitting and underfitting
-- **Scikit-learn** framework
+- Python fundamentals: syntax, data types, control flow
+- Functions, classes, and OOP concepts
+- Working with files and APIs
+- Error handling and debugging
+- Virtual environments and package management
+- Introduction to data structures
+- Command-line proficiency
 
-### Phase 6: Deep Learning (Weeks 31-36)
-Advanced neural networks:
-- Neural network fundamentals
-- Backpropagation and optimization
-- **PyTorch or TensorFlow/Keras:**
-  - Convolutional Neural Networks (CNNs)
-  - Recurrent Neural Networks (RNNs)
-  - Transfer learning
-- Deep learning applications
+### Phase 2: Data Handling & SQL (Weeks 7-12)
+**Objective:** Become expert at data extraction and manipulation
 
-### Phase 7: Production & MLOps (Weeks 37-42)
-Deploy models in production:
-- Model versioning and tracking (MLflow)
-- Feature engineering pipelines
-- Model deployment (APIs, containers)
-- Monitoring and drift detection
-- A/B testing and experimentation
+**NumPy & Pandas:**
+- NumPy arrays and operations
+- Pandas DataFrames and Series
+- Data cleaning and preprocessing
+- Merging and aggregations
+- Working with missing data
+- Reshaping and pivot operations
+- Performance optimization
 
-## Key Skills
+**SQL Mastery:**
+- Complex queries and joins
+- Window functions and CTEs
+- Aggregations and grouping
+- Query optimization
+- Creating views and indexes
+- Working with different databases
 
-**Essential**
-- Python programming mastery
-- SQL and data querying
-- Statistical analysis fundamentals
-- Machine learning algorithms
-- Data visualization
+### Phase 3: Exploratory Data Analysis (Weeks 13-16)
+**Objective:** Understand data deeply before modeling
 
-**Important**
-- Deep learning basics
-- Data preprocessing and cleaning
-- Experiment design
+- Data profiling and quality checks
+- Statistical summaries
+- Distribution analysis
+- Correlation and relationship exploration
+- Outlier detection
+- Data visualization techniques
+- Storytelling with data
+
+### Phase 4: Statistics & Mathematics (Weeks 17-22)
+**Objective:** Build mathematical foundation for ML
+
+**Statistics:**
+- Probability distributions
+- Hypothesis testing and A/B testing
+- Confidence intervals and p-values
+- Bayesian thinking
+- Experimental design
+- Statistical inference
+
+**Linear Algebra & Calculus:**
+- Vectors and matrices
+- Matrix operations
+- Eigenvalues and eigenvectors
+- Derivatives and gradients
+- Optimization concepts
+
+### Phase 5: Machine Learning Algorithms (Weeks 23-30)
+**Objective:** Master ML algorithms and implementation
+
+**Supervised Learning:**
+- Linear regression and logistic regression
+- Decision trees and random forests
+- Support vector machines (SVM)
+- Gradient boosting (XGBoost, LightGBM, CatBoost)
+- Ensemble methods
+- Hyperparameter tuning
+
+**Unsupervised Learning:**
+- K-means and hierarchical clustering
+- DBSCAN and density-based methods
+- Principal component analysis (PCA)
+- Dimensionality reduction
+- Anomaly detection
+
+**Best Practices:**
+- Train/test/validation splits
+- Cross-validation techniques
+- Class imbalance handling
+- Feature scaling and normalization
 - Model evaluation metrics
-- Business acumen
 
-**Advanced**
-- Deep learning specialization (NLP, CV)
-- Big data technologies (Spark)
-- Advanced feature engineering
-- MLOps and deployment
-- Domain-specific expertise
+### Phase 6: Feature Engineering (Weeks 31-34)
+**Objective:** Become expert at feature creation
 
-## Prerequisites
+- Feature extraction techniques
+- Domain-driven feature creation
+- Statistical features
+- Categorical encoding
+- Feature selection methods
+- Feature interaction
+- Dimensionality reduction for features
+- Time-series features
 
-- Programming fundamentals
-- Basic mathematics (algebra)
-- Logical thinking
-- Curiosity and analytical mindset
-- 15-20 hours per week commitment
+### Phase 7: Advanced Topics & Specialization (Weeks 35-40)
+**Objective:** Master advanced techniques
 
-## Timeline
+**Deep Learning Basics:**
+- Neural networks fundamentals
+- Activation functions and backpropagation
+- TensorFlow/Keras basics
+- CNN for images
+- RNN for sequences
+- Transfer learning
 
-- **Complete Beginner:** 12-18 months
-- **With Programming Background:** 9-12 months
-- **Accelerated (Full-Time):** 6-9 months
+**Advanced Topics:**
+- Time series analysis and forecasting
+- NLP basics (tokenization, embeddings, sentiment)
+- Computer vision basics
+- Reinforcement learning intro
+- Recommendation systems
 
-## Tools & Libraries
+**MLOps & Deployment:**
+- Model serialization and versioning
+- Building reproducible pipelines
+- A/B testing models in production
+- Monitoring model performance
+- Retraining strategies
 
-**Data:** Pandas, NumPy, Polars
-**Visualization:** Matplotlib, Seaborn, Plotly
-**ML:** Scikit-learn, XGBoost, LightGBM
-**DL:** TensorFlow/Keras, PyTorch, Fast.ai
-**MLOps:** MLflow, Weights & Biases
-**Databases:** PostgreSQL, MongoDB, Redshift
-**Big Data:** Spark, Hadoop
-**Deployment:** Docker, Kubernetes, AWS SageMaker
+## 🔧 Complete Technology Stack
 
-## Project Types
+**Core Languages:**
+- Python 3.10+ (primary)
+- SQL (PostgreSQL, MySQL, BigQuery)
+- R (optional, useful in some domains)
 
-1. **Prediction:** House prices, customer churn
-2. **Classification:** Credit risk, sentiment analysis
-3. **Clustering:** Customer segmentation
-4. **Anomaly Detection:** Fraud detection
-5. **Time Series:** Stock forecasting
-6. **Recommendation:** Product recommendations
-7. **Computer Vision:** Image classification
-8. **NLP:** Text analysis, chatbots
+**Data Manipulation:**
+- Pandas (DataFrames and Series)
+- NumPy (numerical arrays)
+- Polars (high-performance alternative)
+- Dask (distributed computing)
 
-## The Data Science Lifecycle
+**Machine Learning:**
+- Scikit-learn (classical ML)
+- XGBoost, LightGBM, CatBoost (boosting)
+- Statsmodels (statistical modeling)
+- SciPy (scientific computing)
 
-1. **Problem Definition** - Understand business goals
-2. **Data Collection** - Gather relevant data
-3. **Data Preparation** - Clean and transform
-4. **Exploratory Analysis** - Understand patterns
-5. **Feature Engineering** - Create useful features
-6. **Model Development** - Train and tune
-7. **Evaluation** - Assess performance
-8. **Deployment** - Put into production
-9. **Monitoring** - Track performance
-10. **Iteration** - Continuous improvement
+**Deep Learning:**
+- TensorFlow/Keras (primary)
+- PyTorch (research-friendly)
+- JAX (advanced)
 
-## Career Path
+**Data Visualization:**
+- Matplotlib (fundamental)
+- Seaborn (statistical visualization)
+- Plotly (interactive)
+- Tableau/Power BI (business dashboards)
 
-- **Entry Level:** $60K-$100K
-- **Mid-Level:** $100K-$150K
-- **Senior:** $150K-$200K
-- **Lead/Principal:** $200K-$300K+
+**Development & Deployment:**
+- Jupyter Notebooks (experimentation)
+- JupyterLab (enhanced notebook)
+- Git/GitHub (version control)
+- Docker (containerization)
+- Flask/FastAPI (model serving)
 
-## Specialization Paths
+**Databases:**
+- PostgreSQL (OLTP)
+- BigQuery (data warehouse)
+- Snowflake (analytics)
+- MongoDB (documents)
 
-- **Machine Learning Engineer** - Focus on models and optimization
-- **AI Engineer** - Advanced AI/deep learning
-- **Analytics Engineer** - Business analytics
-- **Computer Vision Specialist** - Image and video analysis
-- **NLP Specialist** - Language understanding
-- **Data Engineer** - Infrastructure and pipelines
+**Experiment Tracking:**
+- MLflow (model tracking)
+- Weights & Biases (experiment tracking)
+- Neptune (metadata management)
 
-## Learning Philosophy
+**Cloud Platforms:**
+- AWS SageMaker (ML platform)
+- GCP Vertex AI (ML platform)
+- Azure ML (ML services)
 
-1. **Theory + Practice:** Balance concepts with coding
-2. **Real Datasets:** Work with authentic data challenges
-3. **Portfolio Projects:** Build 3-5 substantial projects
-4. **Public Learning:** Share findings and code
-5. **Iterative Improvement:** Refine models continuously
-6. **Business Context:** Understand business impact
+## 📈 Career Progression
 
-## Success Metrics
+```
+Entry Level (1-2 years, $80-120K)
+  ↓ Build ML model skills
+  ↓ Publish analysis and insights
+  ↓
+Mid-Level (3-5 years, $120-160K)
+  ↓ Lead data science projects
+  ↓ Impact business metrics
+  ↓ Mentor junior scientists
+  ↓
+Senior (5-8 years, $160-220K)
+  ↓ Define data science strategy
+  ↓ Partner with executives
+  ↓ Lead org-wide initiatives
+  ↓
+Staff/Principal (8+ years, $220-300K+)
+  ↓ Shape data-driven culture
+  ↓ Mentor team leaders
+  ↓ Influence business strategy
+```
 
-- Model accuracy and appropriate metrics
-- Business value delivered
-- Deployment capability
-- Code quality and reproducibility
-- Communication of insights
-- Continuous learning and adaptation
+## 🎯 Real-World Specializations
 
-## Key Resources
+1. **ML Engineer** - Production ML systems
+2. **Analytics Engineer** - Analytics and BI
+3. **Quantitative Analyst** - Finance and trading
+4. **NLP Specialist** - Language and text
+5. **Computer Vision Specialist** - Image and video
+6. **Time Series Forecaster** - Prediction systems
+7. **Recommendation Systems** - Personalization
 
-- **Books:** "Hands-On Machine Learning", "Statistical Rethinking"
-- **Courses:** fast.ai, Andrew Ng's ML course
-- **Competitions:** Kaggle for practice
-- **Communities:** r/datascience, r/MachineLearning
-- **Blogs:** Towards Data Science, KDnuggets
+## ✅ Success Checklist
 
-## Stay Current
+### Foundations (1-2 months)
+- [ ] Master Python fundamentals
+- [ ] Learn Pandas and NumPy
+- [ ] Write complex SQL queries
+- [ ] Perform basic data exploration
+- [ ] Create visualizations
 
-- Follow ML research (arXiv, papers)
-- Monitor new tools and frameworks
-- Participate in competitions
-- Contribute to open-source ML projects
-- Network with other data scientists
-- Attend conferences and meetups
+### Intermediate (3-6 months)
+- [ ] Build supervised learning models
+- [ ] Implement unsupervised learning
+- [ ] Perform feature engineering
+- [ ] Conduct hypothesis tests
+- [ ] Deploy simple models
+
+### Advanced (6-12 months)
+- [ ] Master gradient boosting
+- [ ] Learn deep learning basics
+- [ ] Build end-to-end ML pipelines
+- [ ] Understand MLOps
+- [ ] Lead data science projects
+
+## 🚀 Next Steps
+
+1. Master Python fundamentals
+2. Learn pandas and data manipulation
+3. Study statistics and probability
+4. Master SQL for data extraction
+5. Learn machine learning algorithms
+6. Practice feature engineering
+7. Build end-to-end projects
+8. Study deep learning
+9. Learn MLOps and deployment
+10. Specialize in a domain
+
+---
+
+**Ready to start?** Begin with /start-learning or jump to /skill-deep-dive for specific topics.

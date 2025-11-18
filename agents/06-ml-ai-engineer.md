@@ -1,357 +1,287 @@
 ---
-description: Master artificial intelligence, large language models, generative AI, and AI agents. Build intelligent systems that think and learn autonomously.
-capabilities:
-  - Deep learning and neural networks
+name: ml-ai-engineer
+displayName: ML & AI Engineer
+description: Master artificial intelligence, large language models, generative AI, and AI agents. Build intelligent systems that think, learn, and solve complex problems autonomously.
+expertise:
+  - Deep learning and neural networks (TensorFlow, PyTorch)
   - Large Language Models (LLMs) and transformers
-  - Prompt engineering and fine-tuning
+  - Prompt engineering and model fine-tuning
   - Generative AI and diffusion models
   - Retrieval Augmented Generation (RAG)
   - AI agents and multi-agent systems
   - Natural Language Processing
   - Computer Vision
-  - MLOps and model deployment
+  - MLOps and production ML systems
   - Ethical AI and responsible development
+salaryRange:
+  entry: "$100K-$150K"
+  mid: "$150K-$200K"
+  senior: "$200K-$280K"
+  staff: "$280K-$400K+"
+timelineMonths:
+  complete_beginner: 14-20
+  ml_background: 9-12
+  full_time_accelerated: 8-10
 ---
 
-# AI Engineer
+# 🚀 ML & AI Engineer - Complete Mastery Path
 
-Build intelligent systems using advanced AI technologies. Master LLMs, generative AI, and AI agents to create cutting-edge applications that think, learn, and reason.
+Build cutting-edge AI systems using deep learning, large language models, and generative AI. Master the frontier technologies that are reshaping industries through artificial intelligence.
 
-## Overview
+## 📋 Executive Overview
 
-AI engineers create and deploy artificial intelligence systems, particularly focusing on modern deep learning, LLMs, and generative AI. This role combines software engineering with machine learning expertise and is one of the fastest-growing and highest-paid positions in tech.
+ML and AI engineers build intelligent systems using advanced machine learning and artificial intelligence techniques. This role is at the frontier of technology, combining deep learning, transformers, LLMs, and generative AI to create systems that can understand, reason, and solve complex problems.
 
-## Learning Path
+**Market Demand:** ⭐⭐⭐⭐⭐ (Highest-paid engineering roles)
+**Specialization Path:** ML Engineer → AI Researcher → AI Research Leader
+**Impact:** Direct impact on cutting-edge products and capabilities
 
-### Phase 1: Programming Fundamentals (Weeks 1-4)
-Build your foundation:
-- Python programming mastery
-- Data structures and algorithms
-- Object-oriented programming
-- Functional programming concepts
-- Git version control
-- Command-line proficiency
+## 🎯 Who Should Choose This Path
 
-### Phase 2: Mathematics & Statistics (Weeks 5-10)
-Essential quantitative skills:
-- **Linear Algebra:** Vectors, matrices, transformations
-- **Calculus:** Derivatives, gradients, chain rule
-- **Probability & Statistics:**
-  - Distributions and sampling
-  - Hypothesis testing
-  - Bayesian thinking
-  - Information theory
+✅ You're passionate about AI and its possibilities
+✅ You want to work on cutting-edge technologies
+✅ You enjoy deep mathematical and theoretical work
+✅ You want to build intelligent systems that learn
+✅ You're interested in transformers and LLMs
+✅ You want $300K+ salaries
 
-### Phase 3: Deep Learning Foundations (Weeks 11-20)
-Master neural networks:
-- Neural network basics from first principles
-- Backpropagation and optimization
-- **Frameworks:** PyTorch (preferred) or TensorFlow
-- Activation functions and regularization
+## 📚 Complete 40-Week Learning Path
+
+### Phase 1: Deep Learning Foundations (Weeks 1-8)
+**Objective:** Master deep learning fundamentals
+
+- Neural network architecture and math
+- Activation functions and backpropagation
+- Training techniques: optimizers, learning rates, regularization
 - Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs)
+- Recurrent Neural Networks (RNNs, LSTMs, GRUs)
+- Sequence-to-sequence models
 - Attention mechanisms
+- Introduction to transformers
 
-### Phase 4: Transformers & LLMs (Weeks 21-28)
-Understand modern AI architectures:
-- **Transformer Architecture:**
-  - Self-attention mechanisms
-  - Multi-head attention
-  - Positional encoding
-  - Layer normalization
-- **Large Language Models:**
-  - GPT architecture and variants
-  - BERT and encoder models
-  - Model evaluation and benchmarking
-  - Token management and context windows
-- **Understanding Current Models:**
-  - GPT-4, Claude, Llama, Mistral
-  - Model capabilities and limitations
+### Phase 2: Frameworks & Implementation (Weeks 9-14)
+**Objective:** Master TensorFlow and PyTorch
 
-### Phase 5: Generative AI & LLM Applications (Weeks 29-36)
-Build with LLMs:
-- **Prompt Engineering:**
-  - Zero-shot and few-shot prompting
-  - Chain-of-Thought reasoning
-  - ReAct (Reasoning + Acting)
-  - Structured outputs
-- **RAG Systems (Retrieval Augmented Generation):**
-  - Document embedding and chunking
-  - Vector databases (Pinecone, Weaviate, Chroma)
-  - Semantic search and retrieval
-  - Hybrid search approaches
-  - LangChain and LLamaIndex frameworks
-- **LLM Integration:**
-  - Using APIs (OpenAI, Anthropic, others)
-  - Fine-tuning and LoRA
-  - Building applications with LangChain
+**PyTorch (Recommended):**
+- Tensors and autograd
+- Building neural networks
+- Training loops and optimization
+- Custom layers and models
+- GPU/TPU acceleration
+- Distributed training
 
-### Phase 6: AI Agents & Orchestration (Weeks 37-42)
-Build autonomous systems:
-- **Agent Architecture:**
-  - Tool calling and function execution
-  - Memory systems (short-term, long-term, episodic)
-  - Planning and reasoning
-  - Error handling and recovery
-- **Frameworks:**
-  - LangGraph (stateful multi-agent)
-  - CrewAI (role-based agents)
-  - AutoGen (conversation-based)
-- **Multi-Agent Systems:**
-  - Agent communication and coordination
-  - Collaborative problem-solving
-  - Specialization and delegation
+**TensorFlow/Keras:**
+- Sequential and functional APIs
+- Custom training loops
+- TensorFlow ecosystem
+- Model deployment with TensorFlow Serving
 
-### Phase 7: MLOps & Deployment (Weeks 43-48)
-Production-ready AI:
-- **Model Management:**
-  - Versioning and tracking (MLflow)
-  - Experiment management
-  - Model evaluation and comparison
-- **Deployment:**
-  - APIs (FastAPI)
-  - Containerization (Docker)
-  - Cloud deployment (AWS, Azure, GCP)
-  - Serverless options
-- **Monitoring:**
-  - Model performance tracking
-  - Prompt monitoring
-  - Token usage and costs
-  - User feedback loops
+### Phase 3: Advanced Architectures (Weeks 15-22)
+**Objective:** Master modern neural architectures
 
-### Phase 8: Continuous Learning & Specialization (Weeks 49+)
-Stay at the frontier:
-- **Specialization Options:**
-  - **NLP Specialist:** Advanced language understanding
-  - **Vision:** Computer vision and multimodal models
-  - **Agentic AI:** Complex agent systems
-  - **Finetuning:** Custom model adaptation
-- Research paper implementation
-- Open-source contributions
-- Emerging technologies and tools
+**Transformers:**
+- Transformer architecture details
+- Attention is All You Need paper
+- Vision Transformers (ViTs)
+- Multi-head attention mechanisms
+- Position embeddings and encoding
+- Scaling transformers
 
-## Key Skills
+**Advanced Architectures:**
+- Graph Neural Networks (GNNs)
+- Diffusion Models
+- Generative Adversarial Networks (GANs)
+- Variational Autoencoders (VAEs)
+- Energy-based models
 
-**Essential - Foundational**
-- Python programming (advanced level)
-- Deep learning fundamentals
-- Transformer architecture understanding
-- PyTorch or TensorFlow proficiency
-- Prompt engineering basics
-- Git and version control
+### Phase 4: Large Language Models (Weeks 23-30)
+**Objective:** Master LLMs and generative AI
 
-**Important - Intermediate**
-- LLM APIs and integration
-- RAG system design
-- Basic agent development
-- Vector databases
-- Model evaluation metrics
-- Cloud deployment
-
-**Advanced - Specialized**
-- Fine-tuning and PEFT techniques
-- Multi-agent system design
-- Research implementation
-- Advanced optimization
-- Custom architectures
-- Enterprise-scale deployment
-
-## Prerequisites
-
-- Strong Python programming
-- Mathematical maturity (calculus, linear algebra)
-- Understanding of machine learning basics
-- Curiosity about AI frontier
-- 20-30 hours per week commitment
-
-## Timeline
-
-- **Complete Beginner:** 12-18 months
-- **With ML Background:** 8-12 months
-- **Accelerated (Full-Time):** 6-9 months
-- **Already a ML Engineer:** 3-6 months
-
-## Core Tools & Frameworks
-
-**Deep Learning:**
-- PyTorch (recommended), TensorFlow/Keras
-- Fast.ai, Hugging Face Transformers
+**LLM Concepts:**
+- Transformer-based language models
+- Pre-training objectives: causal language modeling
+- Instruction tuning and RLHF
+- LLM training at scale
+- Token economics and context windows
 
 **LLM Applications:**
-- LangChain, LangGraph, LlamaIndex
-- CrewAI, AutoGen, Pydantic AI
+- Prompt engineering techniques
+- Few-shot prompting
+- Chain-of-thought prompting
+- Retrieval Augmented Generation (RAG)
+- LLM fine-tuning and adaptation
+- Vector embeddings and similarity search
 
-**Vector Databases:**
-- Pinecone (managed)
-- Weaviate (open-source)
-- Chroma (embedded)
-- Qdrant, Milvus
+**LLM Frameworks:**
+- HuggingFace Transformers
+- LangChain for LLM applications
+- LlamaIndex for RAG
+- OpenAI APIs and fine-tuning
+- Local LLM deployment
 
-**APIs & Services:**
-- OpenAI API (GPT-4, GPT-4o)
-- Anthropic Claude API
-- Hugging Face Inference
-- Together AI, Replicate
+### Phase 5: Multimodal AI & Vision (Weeks 31-34)
+**Objective:** Work with multiple modalities
 
-**Deployment:**
-- FastAPI (API framework)
-- Docker (containers)
-- AWS, Azure, GCP (cloud)
-- Vercel, Railway (quick deployment)
-- Streamlit (demos)
+- Computer Vision fundamentals
+- CNN architectures: ResNet, EfficientNet
+- Object detection: YOLO, Faster R-CNN
+- Semantic segmentation
+- Vision transformers
+- Multimodal models: CLIP, DALL-E, GPT-4V
+- Image generation: Stable Diffusion, DALL-E
 
-**Monitoring:**
-- LangSmith (LLM testing)
-- Weights & Biases (MLflow alternative)
-- Custom dashboards
+### Phase 6: AI Agents & Reasoning (Weeks 35-38)
+**Objective:** Build autonomous AI systems
 
-## Projects to Build
+- Agent concepts and frameworks
+- Reinforcement learning basics
+- Agent reasoning and planning
+- Tool use and function calling
+- Multi-agent systems
+- AI safety and alignment
+- Prompt-based agents
 
-1. **RAG Chatbot** - Q&A over documents
-2. **Multi-Agent System** - Agents solving complex tasks
-3. **Fine-tuned Model** - Specialized LLM for domain
-4. **Computer Vision App** - Image understanding
-5. **Production LLM Service** - API with monitoring
-6. **Agentic Workflow** - Complex automation
-7. **Research Implementation** - Reproduce paper
+### Phase 7: Production ML & Deployment (Weeks 39-40)
+**Objective:** Deploy AI systems at scale
 
-## The Modern AI Stack
+- MLOps for AI systems
+- Model serving: vLLM, TGI, NVIDIA Triton
+- Inference optimization
+- Quantization and distillation
+- Model monitoring and drift
+- Responsible AI and ethics
+- Cost-effective serving
 
-```
-User Input
-    ↓
-Frontend (Web/Mobile/CLI)
-    ↓
-API Layer (FastAPI, Python)
-    ↓
-LLM/Agent Processing
-    ├─ Prompt engineering
-    ├─ Tool calling
-    ├─ RAG retrieval
-    └─ Memory management
-    ↓
-External Integrations
-    ├─ APIs
-    ├─ Databases
-    └─ Vectors
-    ↓
-Response & Logging
-```
+## 🔧 Complete Technology Stack
 
-## Career Path
+**Core AI Frameworks:**
+- PyTorch (primary deep learning)
+- TensorFlow/Keras (alternative)
+- JAX (advanced numerical computing)
 
-- **Junior AI Engineer:** $110K-$180K
-- **Mid-Level AI Engineer:** $150K-$220K
-- **Senior AI Engineer:** $180K-$300K+
-- **Principal/Distinguished:** $250K-$435K+
+**LLM & Generative AI:**
+- HuggingFace Transformers
+- LangChain (LLM applications)
+- LlamaIndex (RAG systems)
+- Ollama (local LLM running)
+- OpenAI/Anthropic APIs
 
-**Market Context:** Agentic AI market growing 1,220% CAGR, from $7.06B (2025) to $93.20B (2032)
+**Computer Vision:**
+- PyTorch Vision
+- OpenCV
+- Albumentations (augmentation)
+- Detectron2 (object detection)
+- Ultralytics YOLO
 
-## Specialization Paths
+**NLP:**
+- NLTK (text processing)
+- spaCy (NLP)
+- Gensim (topic modeling)
+- TextBlob (sentiment)
 
-- **LLM Optimization** - Model compression, efficiency
-- **Agentic AI** - Complex autonomous systems
-- **Multimodal AI** - Vision + language
-- **RAG Expert** - Advanced retrieval systems
-- **Fine-tuning Specialist** - Custom models
-- **AI Safety** - Alignment and safety
-- **Prompt Engineering** - Advanced techniques
+**Embedding & Vector Search:**
+- Sentence-Transformers
+- Faiss (vector similarity)
+- Weaviate (vector database)
+- Pinecone (managed vector DB)
 
-## Success Metrics
-
-1. **Model Performance:** Accuracy, latency, cost
-2. **User Satisfaction:** User feedback and ratings
-3. **System Reliability:** Uptime and error rates
-4. **Efficiency:** Cost per request, latency
-5. **Innovation:** Novel applications and improvements
-
-## Best Practices
+**MLOps & Deployment:**
+- MLflow (experiment tracking)
+- Weights & Biases (experiment management)
+- vLLM (LLM serving)
+- NVIDIA Triton (model serving)
+- Ray (distributed computing)
 
 **Development:**
-- Prompt engineering systematically
-- Version everything (code, data, prompts)
-- Test extensively with edge cases
-- Monitor token usage and costs
-- Document decision-making
+- Jupyter/JupyterLab
+- Git/GitHub
+- Docker (containerization)
+- Conda/Poetry (dependency management)
 
-**Ethics:**
-- Address bias and fairness
-- Implement content filtering
-- Ensure human oversight for critical decisions
-- Be transparent about AI limitations
-- Respect user privacy
+**Monitoring:**
+- TensorBoard (training visualization)
+- Weights & Biases dashboards
+- Prometheus/Grafana
+- Custom monitoring for models
 
-**Quality:**
-- Evaluate multiple models
-- A/B test prompts and approaches
-- Track performance metrics
-- Regular audits and updates
-- User feedback incorporation
+## 📈 Career Progression
 
-## Learning Resources
+```
+Entry Level (1-2 years, $100-150K)
+  ↓ Build deep learning models
+  ↓ Publish research/projects
+  ↓ Work with established architectures
+  ↓
+Mid-Level (3-5 years, $150-200K)
+  ↓ Design novel architectures
+  ↓ Lead AI research projects
+  ↓ Mentor junior engineers
+  ↓
+Senior (5-8 years, $200-280K)
+  ↓ Define AI research direction
+  ↓ Lead teams
+  ↓ Publish at top venues
+  ↓
+Staff/Principal (8+ years, $280-400K+)
+  ↓ Set org-wide AI strategy
+  ↓ Lead research initiatives
+  ↓ Industry recognition
+```
 
-**Foundational:**
-- 3Blue1Brown (mathematical intuition)
-- Fast.ai (practical deep learning)
-- Andrew Ng's ML course
-- Hugging Face Course (transformers)
+## 🎯 Real-World Specializations
 
-**Advanced:**
-- LangChain/LlamaIndex docs
-- Prompt Engineering Guide
-- Research papers (arXiv)
-- Model cards and documentation
-- GitHub examples and implementations
+1. **LLM Engineer** - Large language models, prompting, RAG
+2. **Generative AI Specialist** - Image/text generation, diffusion
+3. **Computer Vision Engineer** - Object detection, segmentation, tracking
+4. **NLP Engineer** - Language understanding, machine translation
+5. **Reinforcement Learning Engineer** - Agents, game AI, robotics
+6. **ML Researcher** - Novel architectures, theoretical work
+7. **AI Safety Engineer** - Alignment, safety, responsible AI
 
-**Communities:**
-- Hugging Face Discord
-- r/LanguageModels, r/MachineLearning
-- Dev.to AI section
-- AI-focused Slack communities
-- Local AI meetups
+## ✅ Success Checklist
 
-## Key Insights
+### Foundations (2-3 months)
+- [ ] Understand neural network math
+- [ ] Implement deep learning from scratch
+- [ ] Master PyTorch or TensorFlow
+- [ ] Train models on standard datasets
+- [ ] Understand attention mechanisms
 
-1. **LLMs are tools, not magic** - Understand limitations
-2. **Prompt engineering is important** - Invest time here
-3. **Cost matters** - Monitor token usage
-4. **RAG solves many problems** - Master it early
-5. **Agents are emerging** - Learn framework
-6. **Evaluation is hard** - Develop metrics carefully
-7. **Ethics are crucial** - Consider implications
-8. **Things change fast** - Stay updated
+### Intermediate (6-9 months)
+- [ ] Implement transformer models
+- [ ] Train models at reasonable scale
+- [ ] Work with pre-trained models
+- [ ] Implement RAG systems
+- [ ] Fine-tune LLMs
 
-## Continuous Learning
+### Advanced (12+ months)
+- [ ] Design novel architectures
+- [ ] Train large models
+- [ ] Deploy LLMs in production
+- [ ] Build multi-agent systems
+- [ ] Contribute to AI research
 
-- **Weekly:** Follow AI news (LessWrong, Papers with Code)
-- **Monthly:** Read research papers, try new tools
-- **Quarterly:** Take a course on emerging topics
-- **Yearly:** Contribute to open-source, publish
-- **Always:** Build and experiment
+## 🚀 Next Steps
 
-## Next Steps to Start
+1. Master linear algebra and calculus
+2. Learn neural network fundamentals
+3. Master PyTorch framework
+4. Study transformers and attention
+5. Work with LLMs and prompting
+6. Learn computer vision basics
+7. Study reinforcement learning
+8. Learn MLOps for production AI
+9. Build portfolio of AI projects
+10. Contribute to open-source AI projects
 
-1. Master Python deeply
-2. Learn deep learning fundamentals
-3. Understand transformer architecture
-4. Build with LLM APIs (OpenAI, Anthropic)
-5. Implement RAG system
-6. Develop multi-agent application
-7. Deploy to production
-8. Monitor and iterate
+## 🔗 Key Resources
 
-## The Future
+- Papers: arXiv (arxiv.org)
+- Courses: Fast.ai, Coursera, Stanford CS224N
+- Books: Deep Learning, Transformers textbook
+- Communities: HuggingFace, Papers with Code
+- Datasets: Hugging Face Datasets, Kaggle
 
-- **Agentic AI:** Autonomous systems solving complex problems
-- **Multimodal:** Understanding images, text, audio
-- **Reasoning:** Advanced logical thinking
-- **Efficiency:** Smaller, faster models
-- **Personalization:** Custom models for users
-- **Integration:** AI in every application
-- **Safety:** Robust and aligned systems
+---
 
-## Closing Thoughts
-
-AI engineering is the cutting edge of software development. The field moves rapidly, offers exceptional compensation, and tackles some of humanity's most interesting challenges. The time to start is now.
-
-Focus on fundamentals, build consistently, and stay curious about emerging technologies. The AI revolution is here, and it needs passionate engineers like you.
+**Ready to start?** Begin with /start-learning or jump to /skill-deep-dive for specific topics.

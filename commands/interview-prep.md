@@ -1,93 +1,113 @@
-# Interview Preparation
+# 💼 Interview Prep - Get Data Engineering Jobs
 
-Prepare for technical interviews with role-specific practice and guidance.
+Comprehensive interview preparation for your target role.
 
 ## Usage
 
-`/interview-prep [role]`
+```
+/interview-prep [role]
+/interview-prep data-engineer
+/interview-prep ml-engineer
+```
 
-## Interview Topics Covered
+## Interview Types
 
-### Behavioral Questions
-- Tell me about yourself
-- Why this role?
-- Your biggest achievement
-- How you handle challenges
+**Phone Screen** (30 min)
+- Background & motivation
+- Quick technical problem
+- Role-specific questions
 
-### Technical Depth
-- Core concepts of your role
-- Problem-solving approach
-- System design thinking
-- Code quality and best practices
+**Technical Interview** (60 min)
+- System design OR
+- Coding problem OR
+- SQL/Data questions
 
-### Coding Challenges
-- Algorithms and data structures
-- Real-world problem-solving
-- Take-home projects
-- Live coding sessions
+**System Design** (60 min)
+- Design data pipeline / system
+- Scalability considerations
+- Trade-offs analysis
 
-### Role-Specific Topics
+**Take-Home Project** (3-5 hours)
+- Real-world problem
+- Code quality evaluated
+- Reasoning important
 
-**Frontend:**
-- React/Vue/Angular knowledge
-- Performance optimization
-- Accessibility and testing
-- Browser APIs
+**Behavioral** (45 min)
+- STAR method questions
+- Leadership & teamwork
+- Conflict resolution
+
+## Data Engineer Interview Topics
+
+**System Design:**
+- ETL pipeline architecture
+- Data warehouse design
+- Real-time streaming system
+- Data lake vs warehouse
+
+**Technical:**
+- Complex SQL (window functions, CTEs)
+- Apache Spark optimization
+- Airflow DAG design
+- Database optimization
+
+**Behavioral:**
+- Biggest data challenge solved
+- Collaboration with data scientists
+- Handling schema changes
+- Production incident experience
+
+**Salary Negotiation:**
+- Entry: $80-120K
+- Mid: $120-160K  
+- Senior: $160-220K
+- Lead: $220-300K+
+
+## Preparation Timeline
+
+**Week 1-2:** System design patterns  
+**Week 3-4:** Technical deep-dives  
+**Week 5-6:** Practice interviews  
+**Week 7-8:** Behavioral prep  
+**Week 9:** Mock interviews (real people)  
+**Week 10:** Final prep  
+
+## 🎯 Top Questions to Prepare
+
+**Data Engineer:**
+1. Design a real-time analytics pipeline
+2. Optimize slow Spark job
+3. Handle data quality issues
+4. Design dimension tables for retail
+
+**ML Engineer:**
+1. Design ML system for recommendation
+2. Feature engineering approach
+3. Model serving at scale
+4. A/B testing for models
 
 **Backend:**
-- Database design
-- API design
-- Scalability patterns
-- Security practices
+1. Design scalable API
+2. Optimize database queries
+3. Handle millions of users
+4. Distributed systems challenges
 
-**DevOps:**
-- Infrastructure concepts
-- CI/CD design
-- Kubernetes knowledge
-- Troubleshooting skills
+## 📚 Resources
 
-**Data Science:**
-- Machine learning algorithms
-- Statistical concepts
-- Model evaluation
-- Business impact
+✅ System Design Interview book  
+✅ LeetCode (coding practice)  
+✅ Blind 75 (data interview questions)  
+✅ Practicum (mock interviews)  
+✅ Interview.io (mentor feedback)  
 
-**Cloud:**
-- Cloud service knowledge
-- Architecture decisions
-- Cost optimization
-- Security
+## 💪 Confidence Boosters
 
-**AI:**
-- LLM understanding
-- Prompt engineering
-- AI ethics
-- Deployment considerations
+✅ Explain your projects well  
+✅ Practice explaining trade-offs  
+✅ Mock interview with peers  
+✅ Write down key stories  
+✅ Ask thoughtful questions  
 
-## What You Get
+---
 
-- Common interview questions
-- Example answers and approaches
-- Follow-up questions to anticipate
-- Technical topics to study
-- Coding problem sets
-- Design exercise walkthroughs
-- Negotiation strategies
-- Timeline and preparation plan
-
-## Interview Process Guide
-
-1. **Research** the company and role
-2. **Prepare** with this tool
-3. **Practice** with mock interviews
-4. **Perform** with confidence
-5. **Follow up** appropriately
-
-## Tips
-
-- Practice explaining complex concepts simply
-- Show your thinking process clearly
-- Ask clarifying questions
-- Discuss trade-offs thoughtfully
-- Share your experience confidently
-- Ask good questions about the role
+**Next:** Use `/assessment` to test your readiness!
