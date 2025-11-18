@@ -1,75 +1,123 @@
-# Developer Roadmap Plugin
+# Custom Plugin: Data Engineer
 
-A comprehensive Claude Code plugin for mastering 7 specialized developer roles with structured learning paths, interactive guidance, and hands-on projects.
+A specialized Claude Code plugin for mastering data engineering. Master data pipelines, ETL systems, databases, big data technologies, and cloud data platforms.
 
 ## 🎯 Overview
 
-This plugin provides a complete learning system for developers at any level, covering:
+This plugin provides a complete learning system for aspiring and practicing data engineers, covering:
 
-- **Frontend Developer** - React, Vue, Angular, responsive design
-- **Backend Developer** - APIs, databases, server-side programming
-- **DevOps Engineer** - Infrastructure, CI/CD, containerization
-- **Data Scientist** - Machine learning, statistics, data analysis
-- **Full Stack Developer** - Complete web application development
-- **Cloud Engineer** - AWS, Azure, GCP cloud architecture
-- **AI Engineer** - LLMs, generative AI, AI agents
+- **Data Engineer** (PRIMARY) - Pipelines, ETL, databases, big data infrastructure
+- **Data Scientist** - Machine learning, statistics, analytics
+- **ML & AI Engineer** - Deep learning, LLMs, generative AI models
+- **Backend Engineer** - APIs, data services, data ingestion
+- **DevOps Engineer** - Data infrastructure, CI/CD, deployment
+- **Cloud Data Engineer** - AWS, Azure, GCP data platforms
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Installation
 
 ```bash
-claude-code plugin add ./developer-roadmap-plugin
+claude-code plugin add ./custom-plugin-data-engineer
 ```
 
-### Quick Start
+### Begin Learning
 
 ```
 /start-learning
 ```
 
-## 📚 Available Commands
+## 📚 Commands
 
-- `/start-learning` - Begin your learning journey
-- `/choose-role` - Select a developer role
-- `/roadmap-status` - Check progress
-- `/skill-deep-dive [skill]` - Deep dive into skills
-- `/project-ideas [level]` - Get project ideas
-- `/interview-prep [role]` - Interview preparation
-- `/assessment [skill]` - Knowledge assessment
+- `/start-learning` - Choose your learning path
+- `/choose-role` - Select data engineering role
+- `/roadmap-status` - Track your progress
+- `/skill-deep-dive [skill]` - Master specific skills
+- `/project-ideas [level]` - Get hands-on projects
+- `/interview-prep [role]` - Prepare for interviews
+- `/assessment [skill]` - Test your knowledge
 
 ## 🎓 Learning Features
 
-- Structured learning paths (6-24 months)
-- 25+ core skills
-- 43+ project ideas
-- Interview preparation
-- Knowledge assessments
-- Career guidance
+- **6 Specialized Agents** for data roles
+- **21 Data-Focused Skills** (SQL, ETL, Spark, etc.)
+- **Structured Pathways** (12-18 months)
+- **Project-Based Learning** with real scenarios
+- **Interview Preparation** for data roles
+- **Career Guidance** with salary expectations
 
 ## 💼 Plugin Contents
 
-- **7 Agents**: One for each developer role
-- **25+ Skills**: Comprehensive skill modules
-- **7 Commands**: Interactive learning commands
-- **Hooks**: Automation and progress tracking
-- **1000+ Hours**: Of structured learning content
+| Component | Details |
+|-----------|---------|
+| **Agents** | 6 data-focused roles |
+| **Skills** | 21 core data engineering skills |
+| **Commands** | 7 interactive learning commands |
+| **Content** | 800+ hours of structured learning |
+| **Focus** | Data Engineering & Related Roles |
 
-## 📊 Quick Stats
+## 📊 Core Skills Covered
 
-- 7 Specialized Agents
-- 25+ Core Skills
-- 1000+ Hours of Content
-- 43+ Project Ideas
-- Complete Career Paths
-- Latest Technologies
+- Python Programming
+- SQL & Relational Databases
+- NoSQL & Data Stores
+- **Data Engineering** (pipelines, ETL)
+- **ETL Tools** (Airflow, Spark, Kafka, dbt)
+- **Big Data** (Spark, Hadoop, Flink)
+- **Data Warehousing** (Snowflake, BigQuery, Redshift)
+- Machine Learning & Deep Learning
+- Cloud Data Platforms (AWS, Azure, GCP)
+- MLOps & Model Deployment
+- And 11 more specialized skills...
 
-## 🚀 What's Next?
+## 🎯 Who This Is For
 
-Start with `/start-learning` and choose your path to success!
+- Aspiring Data Engineers
+- Data Scientists wanting infrastructure skills
+- Backend engineers moving to data
+- DevOps engineers managing data systems
+- Anyone building data pipelines and analytics
+
+## 📈 Career Paths
+
+- **Junior Data Engineer** - $80K-$120K
+- **Mid-Level** - $120K-$160K
+- **Senior** - $160K-$220K
+- **Lead/Architect** - $220K-$300K+
+
+## 🔧 Technologies Covered
+
+**Core:** Python, SQL, Git
+**ETL:** Apache Airflow, Spark, Kafka, dbt
+**Databases:** PostgreSQL, MySQL, MongoDB, Redis
+**Warehousing:** Snowflake, BigQuery, Redshift, Delta Lake
+**Cloud:** AWS, Azure, GCP
+**MLOps:** MLflow, model deployment, monitoring
+**DevOps:** Docker, Kubernetes, Terraform, CI/CD
+
+## ✨ What's Included
+
+✅ Comprehensive learning paths
+✅ Interactive skill guides
+✅ Project ideas and examples
+✅ Interview preparation
+✅ Career development guidance
+✅ Community resources
+
+## 🚀 Next Steps
+
+1. Run `/start-learning`
+2. Choose your role (Data Engineer recommended)
+3. Follow the structured learning path
+4. Build projects
+5. Assess your knowledge
+6. Prepare for interviews
+7. Land your data engineering role!
 
 ---
 
 **Status:** Production Ready ✅
 **Version:** 1.0.0
 **License:** MIT
+**Repository:** https://github.com/pluginagentmarketplace/custom-plugin-data-engineer
+**Focus:** Data Engineering + Related Roles
