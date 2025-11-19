@@ -1,0 +1,65 @@
+---
+name: api-development
+description: REST APIs, GraphQL, FastAPI, data service design, and integration
+---
+
+# api development
+
+## Quick Start
+
+Get started with api-development:
+
+```python
+# Example implementation
+print("Learning api-development")
+```
+
+## Key Concepts
+
+- Core fundamentals
+- Practical applications
+- Best practices
+- Common patterns
+
+## Tools & Technologies
+
+- Professional tools
+- Popular frameworks
+- Industry standards
+
+## Learning Path
+
+1. **Foundations** - Core concepts
+2. **Intermediate** - Practical skills
+3. **Advanced** - Expert-level knowledge
+4. **Mastery** - Real-world projects
+
+## Resources
+
+- Official documentation
+- Online courses
+- Tutorials
+- Community forums
+
+## Common Use Cases
+
+- Production systems
+- Analytics
+- Automation
+- Integration
+
+## Best Practices
+
+✓ Start with fundamentals
+✓ Practice consistently
+✓ Build projects
+✓ Join communities
+✓ Never stop learning
+
+## Next Steps
+
+1. Complete foundational learning
+2. Build small projects
+3. Tackle bigger challenges
+4. Share knowledge
+5. Continue growing

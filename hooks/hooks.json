@@ -1,0 +1,233 @@
+{
+  "hooks": [
+    {
+      "id": "user-prompt-submit-hook",
+      "trigger": "user-prompt-submit",
+      "name": "Learning Path Tracker",
+      "description": "Automatically tracks user progress and provides contextual learning recommendations",
+      "enabled": true,
+      "conditions": {
+        "trackProgress": true,
+        "provideFeedback": true,
+        "suggestResources": true
+      },
+      "actions": [
+        {
+          "type": "log",
+          "message": "User interaction tracked for learning progress"
+        },
+        {
+          "type": "context",
+          "addContext": [
+            "selected_role",
+            "current_skill_level",
+            "learning_pace",
+            "previous_questions"
+          ]
+        },
+        {
+          "type": "suggestion",
+          "prioritize": "next_skills_to_learn"
+        }
+      ]
+    },
+    {
+      "id": "skill-mastery-hook",
+      "trigger": "skill-completion",
+      "name": "Skill Mastery Recognition",
+      "description": "Recognizes when a user has demonstrated skill mastery and unlocks advanced topics",
+      "enabled": true,
+      "conditions": {
+        "meetsCompletionCriteria": true,
+        "demonstratesUnderstanding": true
+      },
+      "actions": [
+        {
+          "type": "notification",
+          "message": "Great job! You've mastered {{skill}}. Ready for the next challenge?"
+        },
+        {
+          "type": "unlock",
+          "unlocksContent": "advanced_topics"
+        },
+        {
+          "type": "recommend",
+          "recommendationType": "next_logical_skill"
+        }
+      ]
+    },
+    {
+      "id": "project-guidance-hook",
+      "trigger": "project-request",
+      "name": "Project-Based Learning",
+      "description": "Provides hands-on project guidance matching user skill level",
+      "enabled": true,
+      "conditions": {
+        "userReadyForProjects": true
+      },
+      "actions": [
+        {
+          "type": "match",
+          "matchSkillLevel": "current"
+        },
+        {
+          "type": "provide",
+          "content": [
+            "project_specification",
+            "technology_stack",
+            "implementation_guide",
+            "testing_checklist",
+            "deployment_steps"
+          ]
+        },
+        {
+          "type": "support",
+          "debuggingHelp": true,
+          "codeReview": true
+        }
+      ]
+    },
+    {
+      "id": "interview-readiness-hook",
+      "trigger": "interview-preparation-request",
+      "name": "Interview Preparation Assistant",
+      "description": "Helps users prepare for technical interviews in their chosen role",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "assess",
+          "assessment": "interview_readiness"
+        },
+        {
+          "type": "provide",
+          "content": [
+            "common_questions",
+            "technical_topics",
+            "coding_challenges",
+            "system_design_problems"
+          ]
+        },
+        {
+          "type": "practice",
+          "includeMockInterviews": true
+        },
+        {
+          "type": "feedback",
+          "category": "communication_and_technical_depth"
+        }
+      ]
+    },
+    {
+      "id": "resource-recommendation-hook",
+      "trigger": "learning-resource-request",
+      "name": "Smart Resource Recommender",
+      "description": "Recommends curated learning resources based on user style and goals",
+      "enabled": true,
+      "conditions": {
+        "matchLearningStyle": true,
+        "prioritizeQuality": true
+      },
+      "actions": [
+        {
+          "type": "filter",
+          "by": [
+            "learning_style",
+            "skill_level",
+            "time_commitment",
+            "budget"
+          ]
+        },
+        {
+          "type": "rank",
+          "by": "community_rating"
+        },
+        {
+          "type": "provide",
+          "include": [
+            "official_documentation",
+            "video_courses",
+            "interactive_platforms",
+            "books",
+            "projects",
+            "communities"
+          ]
+        },
+        {
+          "type": "track",
+          "progress": "resource_completion"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-gap-hook",
+      "trigger": "assessment-completion",
+      "name": "Knowledge Gap Identifier",
+      "description": "Identifies learning gaps and creates targeted study plans",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "analyze",
+          "assessment": "user_responses"
+        },
+        {
+          "type": "identify",
+          "gaps": "weak_topic_areas"
+        },
+        {
+          "type": "prioritize",
+          "by": "impact_on_career"
+        },
+        {
+          "type": "create",
+          "plan": "focused_study_guide"
+        },
+        {
+          "type": "provide",
+          "resources": "targeted_learning_materials"
+        }
+      ]
+    },
+    {
+      "id": "motivation-hook",
+      "trigger": "milestone-achievement",
+      "name": "Motivation & Progress Recognition",
+      "description": "Celebrates milestones and keeps users motivated throughout their learning journey",
+      "enabled": true,
+      "conditions": {
+        "celebrateAchievements": true,
+        "maintainMomentum": true
+      },
+      "actions": [
+        {
+          "type": "celebrate",
+          "milestone": "skill_or_project_completed"
+        },
+        {
+          "type": "recognize",
+          "achievement": "progress_made"
+        },
+        {
+          "type": "motivate",
+          "message": "personalized_encouragement"
+        },
+        {
+          "type": "visualize",
+          "progress": "learning_roadmap"
+        },
+        {
+          "type": "suggest",
+          "nextChallenge": "incremental_growth"
+        }
+      ]
+    }
+  ],
+  "configuration": {
+    "autoTrackProgress": true,
+    "provideDailyTips": false,
+    "notifyOnMilestones": true,
+    "contextAwareness": true,
+    "personalizedRecommendations": true,
+    "defaultLanguage": "en",
+    "timezone": "UTC"
+  }
+}

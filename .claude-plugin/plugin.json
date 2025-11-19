@@ -1,0 +1,239 @@
+{
+  "name": "custom-plugin-data-engineer",
+  "version": "1.0.0",
+  "displayName": "Custom Plugin: Data Engineer",
+  "description": "Specialized learning system for data engineers. Master data pipelines, ETL, databases, analytics, machine learning, and cloud data platforms. Based on roadmap.sh with 800+ hours of data-focused content.",
+  "author": "Data Engineer Community",
+  "license": "MIT",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-data-engineer",
+
+  "agents": [
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "description": "Master data pipelines, ETL systems, database design, and big data technologies. Build scalable data infrastructure."
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "description": "Learn machine learning, statistics, and data analysis. Turn data into actionable insights and predictions."
+    },
+    {
+      "id": "ml-engineer",
+      "name": "ML & AI Engineer",
+      "description": "Master machine learning models, deep learning, LLMs, and generative AI. Deploy intelligent systems at scale."
+    },
+    {
+      "id": "backend-engineer",
+      "name": "Backend Engineer",
+      "description": "Build robust APIs and backend systems for data applications. Handle data ingestion, processing, and serving."
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "description": "Manage data infrastructure, CI/CD pipelines, and deployment. Ensure reliable data systems in production."
+    },
+    {
+      "id": "cloud-engineer",
+      "name": "Cloud Data Engineer",
+      "description": "Design cloud-native data solutions on AWS, Azure, or GCP. Master data warehousing and analytics platforms."
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "python-programming",
+      "name": "Python Programming",
+      "description": "Python fundamentals, OOP, data structures, and scripting for data engineering",
+      "agents": ["data-engineer", "data-scientist", "ml-engineer", "backend-engineer"]
+    },
+    {
+      "id": "sql-databases",
+      "name": "SQL & Relational Databases",
+      "description": "SQL query optimization, schema design, indexing, transactions, and PostgreSQL/MySQL",
+      "agents": ["data-engineer", "data-scientist", "backend-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "nosql-databases",
+      "name": "NoSQL & Data Stores",
+      "description": "MongoDB, Redis, Cassandra, DynamoDB, and key-value stores",
+      "agents": ["data-engineer", "backend-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "data-engineering",
+      "name": "Data Engineering Core",
+      "description": "Data pipelines, ETL/ELT systems, workflow orchestration, and data modeling",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer"]
+    },
+    {
+      "id": "etl-tools",
+      "name": "ETL Tools & Technologies",
+      "description": "Apache Airflow, Spark, Kafka, Flink, dbt, and modern data tools",
+      "agents": ["data-engineer", "devops-engineer"]
+    },
+    {
+      "id": "big-data",
+      "name": "Big Data & Distributed Systems",
+      "description": "Apache Spark, Hadoop, distributed computing, and large-scale data processing",
+      "agents": ["data-engineer", "cloud-engineer", "devops-engineer"]
+    },
+    {
+      "id": "data-warehousing",
+      "name": "Data Warehousing & Lakes",
+      "description": "Snowflake, BigQuery, Redshift, Delta Lake, and data warehouse design",
+      "agents": ["data-engineer", "data-scientist", "cloud-engineer"]
+    },
+    {
+      "id": "statistics-math",
+      "name": "Statistics & Mathematics",
+      "description": "Linear algebra, calculus, probability, and statistical analysis",
+      "agents": ["data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "description": "Supervised & unsupervised learning, Scikit-learn, model evaluation, and feature engineering",
+      "agents": ["data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning & Neural Networks",
+      "description": "TensorFlow, PyTorch, CNNs, RNNs, transformers, and neural network architectures",
+      "agents": ["ml-engineer", "data-scientist"]
+    },
+    {
+      "id": "llms-generative-ai",
+      "name": "LLMs & Generative AI",
+      "description": "Large Language Models, prompt engineering, RAG systems, and AI applications",
+      "agents": ["ml-engineer", "backend-engineer"]
+    },
+    {
+      "id": "api-development",
+      "name": "API Development & Data Services",
+      "description": "REST APIs, GraphQL, FastAPI, data service design, and integration",
+      "agents": ["backend-engineer", "data-engineer"]
+    },
+    {
+      "id": "cloud-platforms",
+      "name": "Cloud Data Platforms",
+      "description": "AWS (S3, Redshift, Glue), Azure (Synapse, Data Lake), GCP (BigQuery, Dataflow)",
+      "agents": ["cloud-engineer", "data-engineer", "ml-engineer"]
+    },
+    {
+      "id": "containerization",
+      "name": "Containerization & Orchestration",
+      "description": "Docker, Kubernetes, and container orchestration for data applications",
+      "agents": ["devops-engineer", "data-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "iac-automation",
+      "name": "Infrastructure as Code",
+      "description": "Terraform, Ansible, CloudFormation, and infrastructure automation",
+      "agents": ["devops-engineer", "cloud-engineer"]
+    },
+    {
+      "id": "cicd-pipelines",
+      "name": "CI/CD & Data Pipelines",
+      "description": "Jenkins, GitHub Actions, GitLab CI, and automated deployment for data systems",
+      "agents": ["devops-engineer", "data-engineer"]
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & Model Deployment",
+      "description": "Model versioning, experiment tracking, MLflow, model registry, and production ML",
+      "agents": ["ml-engineer", "data-scientist", "devops-engineer"]
+    },
+    {
+      "id": "monitoring-observability",
+      "name": "Monitoring & Observability",
+      "description": "Prometheus, Grafana, data quality monitoring, alerting, and logging",
+      "agents": ["devops-engineer", "data-engineer"]
+    },
+    {
+      "id": "git-version-control",
+      "name": "Version Control & Git",
+      "description": "Git workflows, collaboration, branching, and code management",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer", "data-scientist", "ml-engineer"]
+    },
+    {
+      "id": "testing-quality",
+      "name": "Testing & Quality Assurance",
+      "description": "Unit testing, integration testing, data validation, and data quality frameworks",
+      "agents": ["data-engineer", "backend-engineer", "devops-engineer"]
+    },
+    {
+      "id": "career-growth",
+      "name": "Career & Professional Development",
+      "description": "Portfolio building, interviews, job search, and continuous learning for data engineers",
+      "agents": ["data-engineer", "data-scientist", "ml-engineer", "backend-engineer", "devops-engineer", "cloud-engineer"]
+    }
+  ],
+
+  "commands": [
+    {
+      "id": "start-learning",
+      "name": "/start-learning",
+      "description": "Begin your learning journey by choosing a role or skill"
+    },
+    {
+      "id": "choose-role",
+      "name": "/choose-role",
+      "description": "Select a specific developer role to focus on"
+    },
+    {
+      "id": "roadmap-status",
+      "name": "/roadmap-status",
+      "description": "Check your progress on your selected learning path"
+    },
+    {
+      "id": "skill-deep-dive",
+      "name": "/skill-deep-dive",
+      "description": "Get detailed guidance on a specific skill or topic"
+    },
+    {
+      "id": "project-ideas",
+      "name": "/project-ideas",
+      "description": "Get hands-on project ideas for your current skill level"
+    },
+    {
+      "id": "interview-prep",
+      "name": "/interview-prep",
+      "description": "Prepare for technical interviews for your target role"
+    },
+    {
+      "id": "assessment",
+      "name": "/assessment",
+      "description": "Evaluate your current knowledge and find gaps"
+    }
+  ],
+
+  "hooks": [
+    "user-prompt-submit-hook"
+  ],
+
+  "keywords": [
+    "data engineer",
+    "data engineering",
+    "ETL",
+    "data pipeline",
+    "SQL",
+    "database design",
+    "big data",
+    "Spark",
+    "Kafka",
+    "data warehouse",
+    "machine learning",
+    "data science",
+    "cloud data",
+    "AWS",
+    "Azure",
+    "GCP",
+    "career development",
+    "learning path",
+    "technical skills",
+    "project ideas",
+    "interview preparation"
+  ],
+
+  "tags": ["data-engineering", "data-science", "ml-ops", "career", "learning", "education"]
+}
