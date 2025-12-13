@@ -1,5 +1,8 @@
 # 🚀 Custom Plugin: Data Engineer
 
+[![Run in Smithery](https://smithery.ai/badge/skills/pluginagentmarketplace)](https://smithery.ai/skills?ns=pluginagentmarketplace&utm_source=github&utm_medium=badge)
+
+
 ![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-blue)
 ![Roles](https://img.shields.io/badge/Roles-6%20Specializations-brightgreen)
 ![Skills](https://img.shields.io/badge/Skills-21%20Core%20Skills-orange)
