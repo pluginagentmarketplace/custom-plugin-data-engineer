@@ -1,3 +1,9 @@
+---
+name: project-ideas
+description: 🚀 Project Ideas - Build Your Portfolio
+allowed-tools: Read
+---
+
 # 🚀 Project Ideas - Build Your Portfolio
 
 Get project ideas matched to your skill level and role. Portfolio projects are 10x more valuable than certifications.

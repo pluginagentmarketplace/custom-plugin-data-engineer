@@ -1,3 +1,9 @@
+---
+name: choose-role
+description: 🎯 Choose Role - Pick Your Data Specialty
+allowed-tools: Read
+---
+
 # 🎯 Choose Role - Pick Your Data Specialty
 
 Select a specific data engineering role and get your detailed learning path.

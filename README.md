@@ -1,367 +1,268 @@
 <div align="center">
 
-# Data Engineer Development Assistant
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Data+Engineer+Assistant;6+Agents+%7C+21+Skills;Claude+Code+Plugin" alt="Data Engineer Assistant" />
 
-### Complete Data Engineering Mastery for Claude Code
+<br/>
 
-**Master data pipelines, ETL, databases, cloud platforms, and MLOps with 6 specialized agents and 21 production-ready skills**
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-[![Verified](https://img.shields.io/badge/Verified-Working-success?style=flat-square&logo=checkmarx)](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer)
-[![License](https://img.shields.io/badge/License-Custom-yellow?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=flat-square)](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer)
-[![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=flat-square)](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer)
-[![Agents](https://img.shields.io/badge/Agents-6-orange?style=flat-square)](#agents-overview)
-[![Skills](https://img.shields.io/badge/Skills-21-purple?style=flat-square)](#skills-reference)
-[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=flat-square)](#)
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-6-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-21-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-7-green?style=flat-square&logo=terminal)](#-commands)
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](skills/python-programming/)
-[![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](skills/big-data/)
-[![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](skills/etl-tools/)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](skills/cloud-platforms/)
+<br/>
 
-[Quick Start](#quick-start) | [Agents](#agents-overview) | [Skills](#skills-reference) | [Commands](#commands)
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer)
+
+---
+
+### What is this?
+
+> **Data Engineer Assistant** is a Claude Code plugin with **6 agents** and **21 skills** for data engineer development.
 
 </div>
 
 ---
 
-## Verified Installation
+## 📑 Table of Contents
 
-> **This plugin has been tested and verified working on Claude Code.**
-> Last verified: December 2025
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
-### Option 1: Install from GitHub (Recommended)
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
 
 ```bash
-# Step 1: Add the marketplace from GitHub
+# Step 1️⃣ Add the marketplace
 /plugin add marketplace pluginagentmarketplace/custom-plugin-data-engineer
 
-# Step 2: Install the plugin
+# Step 2️⃣ Install the plugin
 /plugin install data-engineer-development-assistant@pluginagentmarketplace-data-engineer
 
-# Step 3: Restart Claude Code to load new plugins
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
 ```
 
-### Option 2: Clone and Load Locally
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
 
 ```bash
 # Clone the repository
 git clone https://github.com/pluginagentmarketplace/custom-plugin-data-engineer.git
-
-# Navigate to the directory in Claude Code
 cd custom-plugin-data-engineer
 
-# Load the plugin
+# Load locally
 /plugin load .
+
+# Restart Claude Code
 ```
 
-After loading, restart Claude Code.
+</details>
 
-### Verify Installation
+### ✅ Verify Installation
 
-After restarting Claude Code, verify the plugin is loaded. You should see these agents available:
+After restart, you should see these agents:
 
 ```
-custom-plugin-data-engineer:01-data-engineer
-custom-plugin-data-engineer:02-backend-developer
-custom-plugin-data-engineer:03-devops-engineer
-custom-plugin-data-engineer:04-data-scientist
-custom-plugin-data-engineer:05-cloud-engineer
-custom-plugin-data-engineer:06-ml-ai-engineer
-```
-
----
-
-## Available Skills
-
-Once installed, these 21 skills become available:
-
-| Skill | Invoke Command | Golden Format |
-|-------|----------------|---------------|
-| Python Programming | `Skill("custom-plugin-data-engineer:python-programming")` | python-patterns.yaml |
-| SQL & Databases | `Skill("custom-plugin-data-engineer:sql-databases")` | sql-optimization.yaml |
-| NoSQL & Data Stores | `Skill("custom-plugin-data-engineer:nosql-databases")` | nosql-patterns.yaml |
-| Data Engineering Core | `Skill("custom-plugin-data-engineer:data-engineering")` | pipeline-template.yaml |
-| ETL Tools | `Skill("custom-plugin-data-engineer:etl-tools")` | airflow-dag.yaml |
-| Big Data | `Skill("custom-plugin-data-engineer:big-data")` | spark-config.yaml |
-| Data Warehousing | `Skill("custom-plugin-data-engineer:data-warehousing")` | warehouse-schema.yaml |
-| Statistics & Math | `Skill("custom-plugin-data-engineer:statistics-math")` | statistical-methods.yaml |
-| Machine Learning | `Skill("custom-plugin-data-engineer:machine-learning")` | ml-pipeline.yaml |
-| Deep Learning | `Skill("custom-plugin-data-engineer:deep-learning")` | neural-network.yaml |
-| LLMs & Generative AI | `Skill("custom-plugin-data-engineer:llms-generative-ai")` | rag-system.yaml |
-| API Development | `Skill("custom-plugin-data-engineer:api-development")` | fastapi-template.yaml |
-| Cloud Platforms | `Skill("custom-plugin-data-engineer:cloud-platforms")` | aws-data-stack.yaml |
-| Containerization | `Skill("custom-plugin-data-engineer:containerization")` | docker-compose.yaml |
-| Infrastructure as Code | `Skill("custom-plugin-data-engineer:iac-automation")` | terraform-module.yaml |
-| CI/CD Pipelines | `Skill("custom-plugin-data-engineer:cicd-pipelines")` | github-actions.yaml |
-| MLOps | `Skill("custom-plugin-data-engineer:mlops")` | mlflow-config.yaml |
-| Monitoring | `Skill("custom-plugin-data-engineer:monitoring-observability")` | prometheus-rules.yaml |
-| Git & Version Control | `Skill("custom-plugin-data-engineer:git-version-control")` | git-workflow.yaml |
-| Testing & Quality | `Skill("custom-plugin-data-engineer:testing-quality")` | pytest-config.yaml |
-| Career Growth | `Skill("custom-plugin-data-engineer:career-growth")` | career-roadmap.yaml |
-
----
-
-## What This Plugin Does
-
-This plugin provides **6 specialized agents** and **21 production-ready skills** for data engineering mastery:
-
-| Agent | Purpose |
-|-------|---------|
-| **Data Engineer** | Data pipelines, ETL/ELT, Spark, Airflow, Kafka |
-| **Backend Developer** | APIs for data applications, microservices |
-| **DevOps Engineer** | Infrastructure automation, CI/CD, reliability |
-| **Data Scientist** | ML models, statistics, experimentation |
-| **Cloud Engineer** | AWS/GCP/Azure data services, cost optimization |
-| **ML/AI Engineer** | Deep learning, LLMs, production ML systems |
-
----
-
-## Agents Overview
-
-### 6 Implementation Agents
-
-Each agent is designed to **do the work**, not just explain:
-
-| Agent | Capabilities | Example Prompts |
-|-------|--------------|-----------------|
-| **Data Engineer** | ETL pipelines, Spark jobs, data modeling | `"Build Airflow DAG"`, `"Create Spark pipeline"` |
-| **Backend Developer** | FastAPI, data APIs, microservices | `"Create data API"`, `"Build ingestion service"` |
-| **DevOps Engineer** | Docker, K8s, Terraform, monitoring | `"Containerize pipeline"`, `"Set up Prometheus"` |
-| **Data Scientist** | ML models, Pandas, feature engineering | `"Train classifier"`, `"Analyze dataset"` |
-| **Cloud Engineer** | AWS Glue, BigQuery, Redshift, Snowflake | `"Design data lake"`, `"Optimize cloud costs"` |
-| **ML/AI Engineer** | PyTorch, TensorFlow, LLMs, RAG systems | `"Build RAG pipeline"`, `"Deploy ML model"` |
-
----
-
-## Commands
-
-7 interactive commands for data engineering workflows:
-
-| Command | Usage | Description |
-|---------|-------|-------------|
-| `/start-learning` | `/start-learning` | Begin personalized learning journey |
-| `/choose-role` | `/choose-role` | Select specialization to focus on |
-| `/skill-deep-dive` | `/skill-deep-dive sql` | Master a specific technology |
-| `/project-ideas` | `/project-ideas intermediate` | Get hands-on project ideas |
-| `/roadmap-status` | `/roadmap-status` | Check learning progress |
-| `/interview-prep` | `/interview-prep data-engineer` | Prepare for technical interviews |
-| `/assessment` | `/assessment python` | Evaluate knowledge and find gaps |
-
----
-
-## Skills Reference
-
-Each skill includes **Golden Format** content:
-- `assets/` - YAML templates and configurations
-- `scripts/` - Automation and validation scripts
-- `references/` - Methodology guides and best practices
-
-### All 21 Skills by Category
-
-| Category | Skills |
-|----------|--------|
-| **Fundamentals** | python-programming, sql-databases, git-version-control |
-| **Data Engineering** | data-engineering, etl-tools, big-data, data-warehousing, monitoring-observability |
-| **Databases** | nosql-databases |
-| **ML & AI** | statistics-math, machine-learning, deep-learning, llms-generative-ai |
-| **Cloud & Infrastructure** | cloud-platforms, containerization, iac-automation, cicd-pipelines |
-| **Production** | mlops, api-development, testing-quality |
-| **Professional** | career-growth |
-
----
-
-## Usage Examples
-
-### Example 1: Create ETL Pipeline with Airflow
-
-```python
-# Before: Manual data processing
-
-# After (with Data Engineer agent):
-Skill("custom-plugin-data-engineer:etl-tools")
-
-# Generates:
-# - Airflow DAG with proper scheduling
-# - Data quality checks
-# - Error handling and retry logic
-# - Monitoring and alerting
-```
-
-### Example 2: Build Data API with FastAPI
-
-```python
-# Before: Basic Flask endpoint
-
-# After (with Backend Developer agent):
-Skill("custom-plugin-data-engineer:api-development")
-
-# Provides:
-# - FastAPI async endpoints
-# - Pydantic validation
-# - Database connection pooling
-# - Rate limiting and caching
-```
-
-### Example 3: Deploy to Cloud Data Platform
-
-```yaml
-# Before: Manual cloud setup
-
-# After (with Cloud Engineer agent):
-Skill("custom-plugin-data-engineer:cloud-platforms")
-
-# Creates:
-# - AWS Glue jobs for ETL
-# - S3 data lake structure
-# - Redshift warehouse schema
-# - IAM policies and roles
+data-engineer-development-assistant:03-devops-engineer
+data-engineer-development-assistant:01-data-engineer
+data-engineer-development-assistant:02-backend-developer
+data-engineer-development-assistant:04-data-scientist
+data-engineer-development-assistant:05-cloud-engineer
+... and 1 more
 ```
 
 ---
 
-## Plugin Structure
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **6 Agents** | Specialized AI agents for data engineer tasks |
+| 🛠️ **21 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **7 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+
+---
+
+## 🤖 Agents
+
+### 6 Specialized Agents
+
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **03-devops-engineer** | Master infrastructure automation, deployment pipelines, and  |
+| 2 | **01-data-engineer** | Master data pipelines, ETL systems, database design, and big |
+| 3 | **02-backend-developer** | Build robust, scalable backend systems and APIs that power m |
+| 4 | **04-data-scientist** | Transform data into actionable insights using machine learni |
+| 5 | **05-cloud-engineer** | Design and manage cloud infrastructure and data platforms on |
+| 6 | **06-ml-ai-engineer** | Master artificial intelligence, large language models, gener |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `deep-learning` | TensorFlow, PyTorch, CNNs, RNNs, transformers, neural networ | `Skill("data-engineer-development-assistant:deep-learning")` |
+| `big-data` | Apache Spark, Hadoop, distributed computing, and large-scale | `Skill("data-engineer-development-assistant:big-data")` |
+| `api-development` | REST APIs, GraphQL, FastAPI, data service design, and integr | `Skill("data-engineer-development-assistant:api-development")` |
+| `etl-tools` | Apache Airflow, Spark, Kafka, Flink, dbt, and modern data tr | `Skill("data-engineer-development-assistant:etl-tools")` |
+| `cloud-platforms` | AWS, Azure, GCP data platforms and cloud-native data solutio | `Skill("data-engineer-development-assistant:cloud-platforms")` |
+| `mlops` | Model versioning, MLflow, experiment tracking, model registr | `Skill("data-engineer-development-assistant:mlops")` |
+| `data-warehousing` | Snowflake, BigQuery, Redshift, Delta Lake, and data warehous | `Skill("data-engineer-development-assistant:data-warehousing")` |
+| `containerization` | Docker, Kubernetes, and container orchestration for data app | `Skill("data-engineer-development-assistant:containerization")` |
+| `sql-databases` | SQL query optimization, schema design, indexing, and relatio | `Skill("data-engineer-development-assistant:sql-databases")` |
+| `cicd-pipelines` | Jenkins, GitHub Actions, GitLab CI, and automated data pipel | `Skill("data-engineer-development-assistant:cicd-pipelines")` |
+| ... | +11 more | See skills/ directory |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/choose-role` | 🎯 Choose Role - Pick Your Data Specialty |
+| `/project-ideas` | 🚀 Project Ideas - Build Your Portfolio |
+| `/skill-deep-dive` | 🔍 Skill Deep Dive - Master Any Technology |
+| `/assessment` | 📋 Assessment - Evaluate Your Knowledge |
+| `/roadmap-status` | 📊 Roadmap Status - Track Your Progress |
+| `/interview-prep` | 💼 Interview Prep - Get Data Engineering Jobs |
+| `/start-learning` | 🚀 Start Learning - Data Engineering Roadmap |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
 
 ```
 custom-plugin-data-engineer/
-├── .claude-plugin/
-│   ├── plugin.json           # Plugin manifest
-│   └── marketplace.json      # Marketplace config
-├── agents/                   # 6 specialized agents
-│   ├── 01-data-engineer.md
-│   ├── 02-backend-developer.md
-│   ├── 03-devops-engineer.md
-│   ├── 04-data-scientist.md
-│   ├── 05-cloud-engineer.md
-│   └── 06-ml-ai-engineer.md
-├── skills/                   # 21 skills (Golden Format)
-│   ├── python-programming/
-│   │   ├── SKILL.md
-│   │   ├── assets/
-│   │   ├── scripts/
-│   │   └── references/
-│   ├── sql-databases/
-│   ├── data-engineering/
-│   ├── etl-tools/
-│   ├── big-data/
-│   └── ... (16 more skills)
-├── commands/                 # 7 slash commands
-│   ├── start-learning.md
-│   ├── choose-role.md
-│   ├── skill-deep-dive.md
-│   ├── project-ideas.md
-│   ├── roadmap-status.md
-│   ├── interview-prep.md
-│   └── assessment.md
-├── hooks/hooks.json
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── ARCHITECTURE.md
-└── LICENSE
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 6 agents
+├── 📁 skills/              # 21 skills (Golden Format)
+├── 📁 commands/            # 7 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
 ```
 
----
-
-## Technology Coverage
-
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | Python, SQL, Scala, Go, Bash |
-| **Big Data** | Apache Spark, Hadoop, Flink, Dask, Presto |
-| **Streaming** | Apache Kafka, AWS Kinesis, Google Pub/Sub |
-| **Orchestration** | Apache Airflow, Prefect, Dagster, Temporal |
-| **Warehousing** | Snowflake, BigQuery, Redshift, Delta Lake |
-| **Databases** | PostgreSQL, MongoDB, Redis, Cassandra, DynamoDB |
-| **Cloud** | AWS (S3, Glue, EMR), GCP (BigQuery, Dataflow), Azure (Synapse) |
-| **ML Frameworks** | TensorFlow, PyTorch, Scikit-learn, XGBoost |
-| **Infrastructure** | Docker, Kubernetes, Terraform, Ansible |
-| **Monitoring** | Prometheus, Grafana, Datadog, ELK Stack |
+</details>
 
 ---
 
-## Learning Paths
-
-| Path | Duration | Focus |
-|------|----------|-------|
-| Data Engineer | 40 weeks | ETL, Spark, Airflow, warehousing |
-| Backend + Data | 36 weeks | APIs, data services, microservices |
-| DevOps + Data | 40 weeks | Infrastructure, CI/CD, reliability |
-| ML Engineer | 40 weeks | Deep learning, LLMs, production ML |
-| Cloud Data | 36 weeks | AWS/GCP/Azure data services |
-
----
-
-## Security Notice
-
-This plugin is designed for **authorized development use only**:
-
-**USE FOR:**
-- Learning data engineering
-- Building data pipelines
-- Cloud data platform development
-- ML/AI system implementation
-
-**SECURITY TOPICS:**
-- Data encryption at rest and in transit
-- Access control and IAM
-- Data privacy compliance (GDPR, CCPA)
-- Secure credential management
-
----
-
-## Metadata
+## 📅 Metadata
 
 | Field | Value |
 |-------|-------|
-| **Last Updated** | 2025-12-28 |
-| **Maintenance Status** | Active |
-| **SASMP Version** | 1.3.0 |
-| **Support** | [Issues](../../issues) |
+| **Version** | 2.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 6 |
+| **Skills** | 21 |
+| **Commands** | 7 |
 
 ---
 
-## License
+## 🤝 Contributing
 
-Custom License - See [LICENSE](LICENSE) for details.
-
-Copyright (c) 2025 Dr. Umit Kacar & Muhsin Elcicek
-
----
-
-## Contributing
-
-Contributions are welcome:
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
 1. Fork the repository
-2. Create a feature branch
+2. Create your feature branch
 3. Follow the Golden Format for new skills
 4. Submit a pull request
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
 
 ---
 
-## Contributors
+## 📝 License
 
-**Authors:**
-- **Dr. Umit Kacar** - Senior AI Researcher & Engineer
-- **Muhsin Elcicek** - Senior Software Architect
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
 
-**Master data engineering with AI assistance!**
+**Made with ❤️ for the Claude Code Community**
 
-[![Made for Data](https://img.shields.io/badge/Made%20for-Data%20Engineering-3776AB?style=for-the-badge&logo=python)](https://github.com/pluginagentmarketplace/custom-plugin-data-engineer)
-
-**Built by Dr. Umit Kacar & Muhsin Elcicek**
-
-*Based on [roadmap.sh/data-engineer](https://roadmap.sh/data-engineer)*
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
 
 </div>

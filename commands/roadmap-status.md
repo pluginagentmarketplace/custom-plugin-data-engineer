@@ -1,3 +1,9 @@
+---
+name: roadmap-status
+description: 📊 Roadmap Status - Track Your Progress
+allowed-tools: Read
+---
+
 # 📊 Roadmap Status - Track Your Progress
 
 Check your progress on your learning roadmap and get next steps.

@@ -1,3 +1,9 @@
+---
+name: start-learning
+description: 🚀 Start Learning - Data Engineering Roadmap
+allowed-tools: Read
+---
+
 # 🚀 Start Learning - Data Engineering Roadmap
 
 Begin your comprehensive data engineering learning journey by choosing your perfect specialization path.

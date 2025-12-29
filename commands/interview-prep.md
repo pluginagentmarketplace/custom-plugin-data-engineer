@@ -1,3 +1,9 @@
+---
+name: interview-prep
+description: 💼 Interview Prep - Get Data Engineering Jobs
+allowed-tools: Read
+---
+
 # 💼 Interview Prep - Get Data Engineering Jobs
 
 Comprehensive interview preparation for your target role.

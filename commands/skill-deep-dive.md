@@ -1,3 +1,9 @@
+---
+name: skill-deep-dive
+description: 🔍 Skill Deep Dive - Master Any Technology
+allowed-tools: Read
+---
+
 # 🔍 Skill Deep Dive - Master Any Technology
 
 Get comprehensive guidance on mastering a specific skill or technology.

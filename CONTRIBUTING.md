@@ -1,155 +1,89 @@
 # Contributing to Data Engineer Plugin
 
-Thank you for your interest in contributing! This document provides guidelines for contributing to the plugin.
+Thank you for your interest in contributing to this Claude Code plugin!
 
-## Getting Started
+## 📋 How to Contribute
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/custom-plugin-data-engineer.git`
-3. Create a feature branch: `git checkout -b feature/your-feature-name`
-4. Make your changes
-5. Commit with clear messages: `git commit -m "type: Description of changes"`
-6. Push to your fork and submit a pull request
+1. **Fork** the repository
+2. **Create** your feature branch (`git checkout -b feature/amazing-feature`)
+3. **Follow** the Golden Format for new skills
+4. **Test** your changes thoroughly
+5. **Commit** your changes (`git commit -m 'feat: Add amazing feature'`)
+6. **Push** to the branch (`git push origin feature/amazing-feature`)
+7. **Open** a Pull Request
 
-## Types of Contributions
+## 📐 Guidelines
 
-### 🎓 Learning Content
-- Additional project ideas
-- Real-world case studies
-- Resource recommendations
-- Code examples
-- Tutorial links
+### SASMP v1.3.0 Compliance
 
-### 🐛 Bug Fixes
-- Fix typos in documentation
-- Correct technical inaccuracies
-- Improve examples
-- Fix broken links
+All contributions must follow SASMP (Standardized Agent/Skill Metadata Protocol) v1.3.0:
 
-### 💡 Enhancements
-- New skills or specializations
-- Additional learning phases
-- Career guidance updates
-- Tool recommendations
+- Agents must include `sasmp_version: "1.3.0"` and `eqhm_enabled: true`
+- Skills must include `bonded_agent` and `bond_type` fields
+- Commands must have YAML frontmatter
 
-### 📝 Documentation
-- Improve clarity of explanations
-- Add more examples
-- Create translations
-- Document best practices
+### Agent Development
 
-## Quality Standards
-
-### Content Guidelines
-
-✅ **DO:**
-- Use clear, accessible language
-- Include practical examples
-- Provide multiple learning resources
-- Update salary/market information annually
-- Link to authoritative sources
-
-❌ **DON'T:**
-- Make unverified claims about salaries
-- Recommend untested tools
-- Copy content without attribution
-- Include promotional/affiliate content
-- Create biased specialization recommendations
-
-### Code Standards
-
-- Follow existing formatting
-- Use clear variable/file names
-- Include comments for complex logic
-- Keep line length reasonable
-- Test all changes
-
-### File Organization
-
-```
-agents/          # Agent markdown files (2000+ words each)
-commands/        # Command files (200-400 words each)
-skills/          # Skill files with SKILL.md structure
-hooks/           # Hook configuration
-README.md        # Main documentation
-CONTRIBUTING.md  # This file
-ARCHITECTURE.md  # Technical architecture
+```yaml
+---
+name: agent-name
+description: Agent description
+model: sonnet
+tools: Read, Write, Bash
+sasmp_version: "1.3.0"
+eqhm_enabled: true
+---
 ```
 
-## Commit Message Format
+### Skill Development (Golden Format)
 
 ```
-type(scope): subject
-
-body (optional, if needed)
-
-footer (optional)
+skills/skill-name/
+├── SKILL.md          # Main skill definition
+├── assets/           # Templates, configs, schemas
+├── scripts/          # Automation scripts
+└── references/       # Documentation, guides
 ```
 
-**Types:** feat, fix, docs, style, refactor, perf, test, chore
+SKILL.md frontmatter:
+```yaml
+---
+name: skill-name
+description: Skill description
+sasmp_version: "1.3.0"
+bonded_agent: agent-name
+bond_type: PRIMARY_BOND
+---
+```
 
-**Examples:**
-- `feat(agents): Expand Data Engineer learning path with streaming focus`
-- `fix(skills): Correct SQL optimization examples`
-- `docs(readme): Update 2024 salary ranges`
+### Command Development
 
-## Pull Request Process
+```yaml
+---
+name: command-name
+description: Command description
+allowed-tools: Read, Glob
+---
+```
 
-1. Update relevant documentation
-2. Ensure all links work
-3. Check for typos
-4. Keep PRs focused (one feature per PR)
-5. Write clear PR description
-6. Wait for review before merging
+## ✅ Testing Requirements
 
-## Review Criteria
+- Test all new features locally
+- Verify agent/skill bonding
+- Run `/plugin validate` before submitting
+- Ensure no E-code errors
 
-PRs will be reviewed for:
-- ✅ Accuracy and technical correctness
-- ✅ Clarity and accessibility
-- ✅ Consistency with existing content
-- ✅ Proper formatting and structure
-- ✅ No promotional/biased content
+## 🔒 Code of Conduct
 
-## Content Areas
+- Be respectful and constructive
+- Follow existing code style
+- Document your changes
+- Test before submitting
 
-### Agents
-Each agent should have:
-- Executive overview
-- 7-phase learning path
-- Technology stack (30+ items)
-- Career progression
-- Real-world specializations
-- Success checklists
-- Key resources
+## ❓ Questions?
 
-### Skills
-Each skill should include:
-- YAML frontmatter
-- Quick start with code
-- Key concepts
-- Tools list
-- 3-tier learning path
-- Real-world use cases
-- Best practices
-
-### Commands
-Each command should:
-- Explain what it does
-- Show usage examples
-- Provide expected outputs
-- Link to related commands
-
-## Questions?
-
-- Open an issue for questions
-- Join discussions for general chat
-- Tag maintainers for urgent matters
-
-## License
-
-By contributing, you agree your contributions are licensed under MIT License.
+Open an issue for any questions or suggestions.
 
 ---
 
-Thank you for making Data Engineer Plugin better! 🚀
+© 2025 Dr. Umit Kacar & Muhsin Elcicek. All Rights Reserved.

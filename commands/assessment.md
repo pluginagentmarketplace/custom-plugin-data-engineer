@@ -1,3 +1,9 @@
+---
+name: assessment
+description: 📋 Assessment - Evaluate Your Knowledge
+allowed-tools: Read
+---
+
 # 📋 Assessment - Evaluate Your Knowledge
 
 Test your knowledge in a specific skill area and identify learning gaps.
