@@ -1,6 +1,9 @@
 ---
 name: monitoring-observability
 description: Prometheus, Grafana, data quality monitoring, alerting, logging
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # monitoring observability

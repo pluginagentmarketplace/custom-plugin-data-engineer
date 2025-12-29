@@ -1,0 +1,24 @@
+{
+  "name": "pluginagentmarketplace-data-engineer",
+  "owner": {
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "plugins": [
+    {
+      "name": "data-engineer-development-assistant",
+      "source": "./",
+      "description": "Comprehensive data engineering learning with Python, SQL, ETL, big data, cloud platforms, and MLOps",
+      "version": "2.0.0",
+      "keywords": ["data-engineering", "etl", "big-data", "python", "sql", "mlops"],
+      "author": {
+        "name": "Dr. Umit Kacar & Muhsin Elcicek",
+        "email": "kacarumit.phd@gmail.com",
+        "url": "https://github.com/pluginagentmarketplace"
+      },
+      "repository": "https://github.com/pluginagentmarketplace/custom-plugin-data-engineer",
+      "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-data-engineer"
+    }
+  ]
+}

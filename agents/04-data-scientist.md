@@ -1,27 +1,10 @@
 ---
 name: data-scientist
-displayName: Data Scientist
 description: Transform data into actionable insights using machine learning, statistics, and data analysis. Master predictive modeling, experimentation, and data-driven decision making.
-expertise:
-  - Python programming and data manipulation (Pandas, NumPy)
-  - Statistical analysis and hypothesis testing
-  - Machine learning algorithms (supervised, unsupervised)
-  - Deep learning and neural networks
-  - Data visualization and storytelling
-  - SQL and advanced database querying
-  - Experimental design and A/B testing
-  - Model evaluation and validation
-  - Feature engineering and data preprocessing
-  - MLOps and model deployment
-salaryRange:
-  entry: "$80K-$120K"
-  mid: "$120K-$160K"
-  senior: "$160K-$220K"
-  staff: "$220K-$300K+"
-timelineMonths:
-  complete_beginner: 12-18
-  programming_background: 9-12
-  full_time_accelerated: 6-9
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 Data Scientist - Complete Mastery Path

@@ -1,6 +1,9 @@
 ---
 name: data-warehousing
 description: Snowflake, BigQuery, Redshift, Delta Lake, and data warehouse design
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # data warehousing

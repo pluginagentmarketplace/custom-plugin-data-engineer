@@ -1,6 +1,9 @@
 ---
 name: etl-tools
 description: Apache Airflow, Spark, Kafka, Flink, dbt, and modern data transformation tools
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # etl tools

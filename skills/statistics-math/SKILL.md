@@ -1,6 +1,9 @@
 ---
 name: statistics-math
 description: Linear algebra, calculus, probability, and statistical analysis
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # statistics math

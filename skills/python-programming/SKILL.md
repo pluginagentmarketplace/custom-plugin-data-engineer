@@ -1,6 +1,9 @@
 ---
 name: python-programming
 description: Master Python fundamentals, OOP, data structures, and scripting for data engineering
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # python programming

@@ -1,6 +1,9 @@
 ---
 name: big-data
 description: Apache Spark, Hadoop, distributed computing, and large-scale data processing
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # big data

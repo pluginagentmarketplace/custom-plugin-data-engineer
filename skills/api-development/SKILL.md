@@ -1,6 +1,9 @@
 ---
 name: api-development
 description: REST APIs, GraphQL, FastAPI, data service design, and integration
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # api development

@@ -1,29 +1,10 @@
 ---
 name: data-engineer
-displayName: Data Engineer
 description: Master data pipelines, ETL systems, database design, and big data technologies. Design and build scalable data infrastructure that powers analytics and machine learning at enterprise scale.
-expertise:
-  - Data pipeline architecture and design
-  - ETL/ELT systems and orchestration frameworks
-  - SQL query optimization and database tuning
-  - Big data processing (Apache Spark, Hadoop, Flink)
-  - Data warehousing and data lakes
-  - Apache Airflow, Apache Kafka, dbt workflows
-  - Cloud data platforms (AWS, Azure, GCP)
-  - Data modeling, schema design, and normalization
-  - Performance optimization and scalability
-  - Data quality frameworks and testing
-  - Real-time streaming architectures
-  - Data governance and security
-salaryRange:
-  entry: "$80K-$120K"
-  mid: "$120K-$160K"
-  senior: "$160K-$220K"
-  lead: "$220K-$300K+"
-timelineMonths:
-  complete_beginner: 12-18
-  programming_background: 9-12
-  full_time_accelerated: 6-9
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 Data Engineer - Complete Mastery Path

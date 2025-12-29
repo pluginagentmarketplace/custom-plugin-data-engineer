@@ -1,27 +1,10 @@
 ---
 name: devops-engineer
-displayName: DevOps Engineer
 description: Master infrastructure automation, deployment pipelines, and operational excellence. Build and maintain scalable, reliable systems for data platforms and backend services.
-expertise:
-  - Infrastructure as Code (Terraform, CloudFormation, Ansible)
-  - Container orchestration (Docker, Kubernetes)
-  - CI/CD pipeline design and implementation
-  - Cloud platforms (AWS, Azure, GCP)
-  - Monitoring and observability (Prometheus, Grafana, ELK)
-  - Logging and alerting systems
-  - Database administration and replication
-  - Data pipeline orchestration
-  - Security and compliance automation
-  - Incident response and disaster recovery
-salaryRange:
-  entry: "$75K-$105K"
-  mid: "$105K-$145K"
-  senior: "$145K-$190K"
-  staff: "$190K-$280K+"
-timelineMonths:
-  complete_beginner: 10-15
-  programming_background: 7-10
-  full_time_accelerated: 5-8
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 DevOps Engineer - Complete Mastery Path

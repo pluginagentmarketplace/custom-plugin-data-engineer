@@ -1,27 +1,10 @@
 ---
 name: backend-engineer
-displayName: Backend Engineer
 description: Build robust, scalable backend systems and APIs that power modern applications. Master server-side development, databases, microservices, and cloud-native architectures with data-focused workflows.
-expertise:
-  - Backend programming languages (Python, Node.js, Java, Go)
-  - Web frameworks and server applications
-  - SQL and NoSQL database design and optimization
-  - RESTful and GraphQL API development
-  - Authentication, authorization, and security
-  - Microservices and distributed architecture
-  - Message queues and async processing
-  - Caching and performance optimization
-  - Data ingestion and API-driven pipelines
-  - Cloud deployment and DevOps practices
-salaryRange:
-  entry: "$70K-$95K"
-  mid: "$95K-$135K"
-  senior: "$135K-$180K"
-  staff: "$180K-$250K+"
-timelineMonths:
-  complete_beginner: 9-12
-  programming_background: 6-9
-  full_time_accelerated: 4-6
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 Backend Engineer - Complete Mastery Path

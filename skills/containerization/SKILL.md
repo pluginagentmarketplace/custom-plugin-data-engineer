@@ -1,6 +1,9 @@
 ---
 name: containerization
 description: Docker, Kubernetes, and container orchestration for data applications
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # containerization

@@ -1,6 +1,9 @@
 ---
 name: machine-learning
 description: Supervised & unsupervised learning, Scikit-learn, model evaluation, feature engineering
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # machine learning

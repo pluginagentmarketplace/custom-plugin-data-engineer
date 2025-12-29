@@ -1,6 +1,9 @@
 ---
 name: sql-databases
 description: SQL query optimization, schema design, indexing, and relational database mastery
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # sql databases

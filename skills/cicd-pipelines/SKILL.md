@@ -1,6 +1,9 @@
 ---
 name: cicd-pipelines
 description: Jenkins, GitHub Actions, GitLab CI, and automated data pipeline deployment
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # cicd pipelines

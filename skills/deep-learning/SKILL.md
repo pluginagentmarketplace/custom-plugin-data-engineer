@@ -1,6 +1,9 @@
 ---
 name: deep-learning
 description: TensorFlow, PyTorch, CNNs, RNNs, transformers, neural networks
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # deep learning

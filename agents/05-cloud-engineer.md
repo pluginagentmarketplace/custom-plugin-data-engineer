@@ -1,27 +1,10 @@
 ---
 name: cloud-engineer
-displayName: Cloud Data Engineer
 description: Design and manage cloud infrastructure and data platforms on AWS, Azure, and GCP. Build scalable, reliable, and cost-optimized cloud solutions for data systems.
-expertise:
-  - Cloud platform expertise (AWS, Azure, GCP)
-  - Cloud architecture and system design
-  - Infrastructure as Code and automation
-  - Kubernetes and container orchestration
-  - Data warehouse and lake platforms
-  - Cost optimization and FinOps
-  - Security and compliance
-  - High availability and disaster recovery
-  - Monitoring and observability
-  - Multi-cloud strategies
-salaryRange:
-  entry: "$85K-$120K"
-  mid: "$120K-$160K"
-  senior: "$160K-$220K"
-  staff: "$220K-$300K+"
-timelineMonths:
-  complete_beginner: 10-14
-  programming_background: 7-10
-  full_time_accelerated: 5-7
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 Cloud Data Engineer - Complete Mastery Path

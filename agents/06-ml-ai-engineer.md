@@ -1,27 +1,10 @@
 ---
 name: ml-ai-engineer
-displayName: ML & AI Engineer
 description: Master artificial intelligence, large language models, generative AI, and AI agents. Build intelligent systems that think, learn, and solve complex problems autonomously.
-expertise:
-  - Deep learning and neural networks (TensorFlow, PyTorch)
-  - Large Language Models (LLMs) and transformers
-  - Prompt engineering and model fine-tuning
-  - Generative AI and diffusion models
-  - Retrieval Augmented Generation (RAG)
-  - AI agents and multi-agent systems
-  - Natural Language Processing
-  - Computer Vision
-  - MLOps and production ML systems
-  - Ethical AI and responsible development
-salaryRange:
-  entry: "$100K-$150K"
-  mid: "$150K-$200K"
-  senior: "$200K-$280K"
-  staff: "$280K-$400K+"
-timelineMonths:
-  complete_beginner: 14-20
-  ml_background: 9-12
-  full_time_accelerated: 8-10
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🚀 ML & AI Engineer - Complete Mastery Path

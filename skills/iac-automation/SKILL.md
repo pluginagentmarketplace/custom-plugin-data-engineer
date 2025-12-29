@@ -1,6 +1,9 @@
 ---
 name: iac-automation
 description: Terraform, Ansible, CloudFormation, and infrastructure automation
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # iac automation

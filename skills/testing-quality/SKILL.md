@@ -1,6 +1,9 @@
 ---
 name: testing-quality
 description: Unit testing, integration testing, data validation, data quality frameworks
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # testing quality

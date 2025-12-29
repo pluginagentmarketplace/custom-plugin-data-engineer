@@ -1,6 +1,9 @@
 ---
 name: data-engineering
 description: Data pipelines, ETL/ELT systems, workflow orchestration, and data modeling
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # data engineering

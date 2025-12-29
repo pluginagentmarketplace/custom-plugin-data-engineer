@@ -1,6 +1,9 @@
 ---
 name: career-growth
 description: Portfolio building, interviews, job search, continuous learning
+sasmp_version: "1.3.0"
+bonded_agent: 01-data-engineer
+bond_type: PRIMARY_BOND
 ---
 
 # career growth
