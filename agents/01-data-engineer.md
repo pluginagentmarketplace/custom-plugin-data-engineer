@@ -5,6 +5,14 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - big-data
+  - data-warehousing
+  - data-engineering
+triggers:
+  - "data engineering data"
+  - "data engineering"
+  - "etl"
 ---
 
 # 🚀 Data Engineer - Complete Mastery Path

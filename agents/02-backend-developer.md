@@ -5,6 +5,11 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills: []
+triggers:
+  - "data engineering backend"
+  - "data engineering"
+  - "etl"
 ---
 
 # 🚀 Backend Engineer - Complete Mastery Path

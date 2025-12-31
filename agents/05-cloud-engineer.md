@@ -5,6 +5,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - cloud-platforms
+triggers:
+  - "data engineering cloud"
+  - "data engineering"
+  - "etl"
 ---
 
 # 🚀 Cloud Data Engineer - Complete Mastery Path

@@ -5,6 +5,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - llms-generative-ai
+triggers:
+  - "data engineering ml"
+  - "data engineering"
+  - "etl"
 ---
 
 # 🚀 ML & AI Engineer - Complete Mastery Path
