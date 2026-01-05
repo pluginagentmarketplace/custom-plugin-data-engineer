@@ -63,6 +63,5 @@
     "./commands/roadmap-status.md",
     "./commands/interview-prep.md",
     "./commands/assessment.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }

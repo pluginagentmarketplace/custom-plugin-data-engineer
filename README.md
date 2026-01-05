@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-data-engineer
+/plugin marketplace add pluginagentmarketplace/custom-plugin-data-engineer
 
 # Step 2️⃣ Install the plugin
 /plugin install data-engineer-development-assistant@pluginagentmarketplace-data-engineer
